@@ -1,0 +1,191 @@
+@keyframes cross-scanner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* @keyframes img-heart-line {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: calc(0% + 717px);
+  }
+} */
+
+@keyframes img-heartline {
+  100% {
+    transform: translate(-58%);
+  }
+}
+@keyframes img-DNA {
+  100% {
+    transform: translate(-50%);
+  }
+}
+
+img.cross-scanner:hover {
+  animation-play-state: paused;
+}
+img.img-heartline:hover {
+  animation-play-state: paused;
+}
+img.img-DNA:hover {
+  animation-play-state: paused;
+}
+@keyframes graph-1 {
+  0% {
+    height: 84px;
+  }
+  50% {
+    height: 62px;
+  }
+  100% {
+    height: 84px;
+  }
+}
+#graph-1:hover {
+  animation-play-state: paused;
+}
+@keyframes graph-2 {
+  0% {
+    height: 100px;
+  }
+  50% {
+    height: 78px;
+  }
+  100% {
+    height: 100px;
+  }
+}
+#graph-2:hover {
+  animation-play-state: paused;
+}
+@keyframes graph-3 {
+  0% {
+    height: 140px;
+  }
+  50% {
+    height: 118px;
+  }
+  100% {
+    height: 140px;
+  }
+}
+#graph-3:hover {
+  animation-play-state: paused;
+}
+
+@keyframes graph-4 {
+  0% {
+    height: 113px;
+  }
+  50% {
+    height: 91px;
+  }
+  100% {
+    height: 113px;
+  }
+}
+#graph-4:hover {
+  animation-play-state: paused;
+}
+@keyframes graph-5 {
+  0% {
+    height: 32px;
+  }
+  50% {
+    height: 20px;
+  }
+  100% {
+    height: 32px;
+  }
+}
+#graph-5:hover {
+  animation-play-state: paused;
+}
+@keyframes graph-6 {
+  0% {
+    height: 70px;
+  }
+  50% {
+    height: 48px;
+  }
+  100% {
+    height: 70px;
+  }
+}
+#graph-6:hover {
+  animation-play-state: paused;
+}
+@keyframes graph-7 {
+  0% {
+    height: 43px;
+  }
+  50% {
+    height: 21px;
+  }
+  100% {
+    height: 43px;
+  }
+}
+#graph-7:hover {
+  animation-play-state: paused;
+}
+@keyframes bar-color-1 {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+@keyframes bar-color-2 {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+@keyframes bar-color-3 {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+@keyframes bar-color-4 {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+@keyframes bar-color-5 {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+.bar-color-1-1:hover {
+  opacity: 100%;
+}
+.bar-color-2-1:hover {
+  opacity: 100%;
+}
+.bar-color-3-1:hover {
+  opacity: 100%;
+}
+.bar-color-4-1:hover {
+  opacity: 100%;
+}
+.bar-color-5-1:hover {
+  opacity: 100%;
+}
