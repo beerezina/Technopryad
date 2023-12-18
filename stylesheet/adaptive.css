@@ -82,3 +82,87 @@
     width: 13%;
   }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .header {
+    margin-top: 20px;
+  }
+  .data-capture {
+    flex-direction: column;
+    height: 189vw;
+  }
+  .left-column {
+    width: 99%;
+  }
+  .right-column {
+    height: 100%;
+    width: 100%;
+    padding-left: 0;
+  }
+  .text-data-capture {
+    text-align: center;
+    padding: 3vw;
+    font-size: 6vw;
+  }
+  /* .days h2 {
+    font-size: 5vw; */
+
+  img.img-heartline {
+    width: 226vw;
+  }
+  /* .bar-chart > div {
+    border-radius: 3px;
+  } */
+  #graph-1,
+  #graph-2,
+  #graph-3,
+  #graph-4,
+  #graph-5,
+  #graph-6,
+  #graph-7 {
+    border-radius: 3px;
+  }
+
+  #blue-graph-1,
+  #blue-graph-2,
+  #blue-graph-3,
+  #blue-graph-4,
+  #blue-graph-5,
+  #blue-graph-6,
+  #blue-graph-7 {
+    margin-bottom: 0.5vw;
+    border-radius: 2px;
+  }
+
+  /* .bar-color-1,
+  .bar-color-1-1 {
+    top: 70.4%;
+    left: 15.7%;
+    width: 32%;
+    height: 22.1%;
+  }
+  .bar-color-2,
+  .bar-color-2-1 {
+    top: 32%;
+    left: 6%;
+    height: 34%;
+  }
+  .bar-color-3,
+  .bar-color-3-1 {
+    top: 7.8%;
+  }
+
+  .bar-color-4,
+  .bar-color-4-1 {
+    top: 8%;
+    left: 53.5%;
+    height: 23%;
+  }
+
+  .bar-color-5,
+  .bar-color-5-1 {
+    left: 81.5%;
+    top: 33.1%;
+    width: 12.5%;
+  } */
+}
