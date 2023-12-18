@@ -1,0 +1,84 @@
+/* айпад */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .header {
+    margin-top: 20px;
+  }
+  .data-capture {
+    height: 98.95vw;
+  }
+  .left-column {
+    width: 64.2vw;
+    height: 64.2vw;
+  }
+  .right-column {
+    height: 63.3vw;
+    width: 28vw;
+  }
+  .text-data-capture {
+    font-size: 4.6vw;
+  }
+  .heartline {
+    height: 21%;
+    width: 94.79vw;
+    top: 80vw;
+    left: 20px;
+    position: absolute;
+  }
+  img.img-heartline {
+    width: auto;
+  }
+  .two-squares {
+    width: 27.8vw;
+    height: 53.15vw;
+    margin-top: 2.4vw;
+    flex-direction: column;
+  }
+  .days {
+    height: 27.5vw;
+    width: 27.5vw;
+    border-bottom: 0;
+  }
+  .second-square {
+    height: 27.5vw;
+    width: 27.5vw;
+  }
+
+  .bar-color-1 {
+    top: 72.84%;
+  }
+  .bar-color-2 {
+    height: 37%;
+  }
+  .bar-color-3 {
+    top: 4%;
+  }
+  .bar-color-4 {
+    top: 4%;
+    height: 25%;
+  }
+  .bar-color-5 {
+    left: 81%;
+    top: 31%;
+    width: 13%;
+  }
+  .bar-color-1-1 {
+    top: 72.84%;
+    height: auto;
+  }
+
+  .bar-color-3-1 {
+    top: 4%;
+  }
+
+  .bar-color-4-1 {
+    top: 4%;
+    height: 25%;
+  }
+
+  .bar-color-5-1 {
+    left: 81%;
+    top: 31%;
+    width: 13%;
+  }
+}

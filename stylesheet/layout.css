@@ -62,7 +62,6 @@ img.cross-scanner {
 .heartline {
   border: black 2px solid;
   height: 36%;
-  /* width: 49.5vw; */
   position: relative;
   margin-bottom: 20px;
   overflow: hidden;
@@ -78,7 +77,6 @@ img.img-heartline {
 /* общий блок снизу с двумя квадратами */
 .two-squares {
   display: flex;
-
   height: 51.5%;
 }
 /* блок с днями и контур*/
@@ -105,10 +103,6 @@ img.img-heartline {
 /* постепенно исчезающие деления графика  */
 .bar-color-1 {
   position: absolute;
-  /* top: 72%;
-  left: 16%;
-  width: 32%;
-  height: 23%; */
   top: 71.84%;
   left: 15.678%;
   width: 32.2%;
@@ -154,10 +148,9 @@ img.img-heartline {
 /* цветные при наведении деления графика */
 .bar-color-1-1 {
   position: absolute;
-  top: 72%;
-  left: 16%;
-  width: 32%;
-  height: 23%;
+  top: 71.84%;
+  left: 15.678%;
+  width: 32.2%;
   opacity: 0%;
 }
 .bar-color-2-1 {
