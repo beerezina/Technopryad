@@ -1,9 +1,9 @@
-body {
+html {
   background-color: #413f53;
   display: block;
-  margin: 0 auto;
-  width: 1440px;
-  height: 3222px;
+  /* margin: 0 auto; */
+  width: 100vw;
+
   border: white 2px solid;
   /* - убрать после написания кода */
 }
@@ -14,27 +14,33 @@ body {
 /* текст заголовка */
 #header-text {
   font-family: Yagiza;
-  font-size: 103px;
+  font-size: 7.2vw;
   color: #ff00e5;
   text-align: center;
 }
 /* секция с data capture */
 .data-capture {
   display: flex;
-  margin: 20px 20px 40px 20px;
+  width: 100vw;
+  height: 48.36vw;
+  padding: 20px;
+  box-sizing: border-box;
 }
+
 /* блок левой колонки и фон*/
 .left-column {
   background-color: #22212c;
   border: black 2px solid;
-  width: 656px;
-  height: 656px;
+  width: 100%;
+  height: 100%;
   background-image: url(../images/first-butterfly-with-skeleton.svg);
+  background-size: contain;
+  background-position: center;
 }
 /* картинка сканнера и анимация */
 img.cross-scanner {
-  width: 656px;
-  height: 656px;
+  width: 100%;
+  height: 100%;
   animation-play-state: running;
   animation: 3s linear 0s normal none infinite running cross-scanner;
 }
@@ -42,29 +48,29 @@ img.cross-scanner {
 .right-column {
   display: flex;
   flex-direction: column;
-  height: 656px;
-  width: 717px;
-  margin-left: 20px;
+  height: 100%;
+  width: 50vw;
+  padding-left: 20px;
 }
 /* текстовый блок data capture */
 .text-data-capture {
   font-family: DigiGraphics;
-  font-size: 57px;
+  font-size: 3.96vw;
   color: #00ffe0;
 }
 /* бокс бегущей линии сердцебиения */
 .heartline {
   border: black 2px solid;
-  height: 239px;
-  width: 717px;
+  height: 36%;
+  /* width: 49.5vw; */
   position: relative;
   margin-bottom: 20px;
   overflow: hidden;
 }
 /* картинка с линией и бегущая анимация */
 img.img-heartline {
-  height: 243px;
-  width: 1649px;
+  height: 100%;
+  width: 116vw;
   position: absolute;
   animation: img-heartline 3s infinite linear;
   animation-play-state: running;
@@ -72,106 +78,129 @@ img.img-heartline {
 /* общий блок снизу с двумя квадратами */
 .two-squares {
   display: flex;
-  height: 338px;
-  width: 717px;
+
+  height: 51.5%;
 }
 /* блок с днями и контур*/
 .days {
-  height: 338px;
-  width: 352px;
+  position: relative;
+  height: 100%;
+  width: 48%;
   border: black 2px solid;
   margin-right: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url(../images/bar.svg);
-  background-size: 300px 300px;
+  background-size: 88%;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  position: relative;
+  background-position: center;
 }
 /* подпись 5/25 days */
 .days h2 {
   font-family: DigiGraphics;
-  font-size: 43px;
+  font-size: 3vw;
   color: #00ffe0;
 }
 /* постепенно исчезающие деления графика  */
 .bar-color-1 {
   position: absolute;
-  top: 242px;
-  left: 52px;
+  /* top: 72%;
+  left: 16%;
+  width: 32%;
+  height: 23%; */
+  top: 71.84%;
+  left: 15.678%;
+  width: 32.2%;
   animation: bar-color-1 200ms linear infinite;
   animation-delay: 4s;
 }
 .bar-color-2 {
   position: absolute;
-  top: 105px;
-  left: 19px;
+  top: 31%;
+  left: 6%;
+  height: 36%;
+  width: auto;
   animation: bar-color-2 500ms linear both;
   animation-delay: 3s;
 }
 .bar-color-3 {
   position: absolute;
-  top: 18px;
-  left: 51px;
+  top: 5%;
+  left: 15%;
+  width: 32%;
+  height: auto;
   animation: bar-color-3 500ms linear both;
   animation-delay: 2s;
 }
 .bar-color-4 {
   position: absolute;
-  top: 20px;
-  left: 182px;
+  top: 5.5%;
+  left: 54%;
+  height: 24%;
+  width: auto;
   animation: bar-color-4 500ms linear both;
   animation-delay: 1s;
 }
 .bar-color-5 {
   position: absolute;
-  left: 276px;
-  top: 108px;
+  left: 81.5%;
+  top: 32%;
+  width: 12.5%;
+  height: auto;
   animation: bar-color-5 1s linear both;
   animation-delay: 100ms;
 }
 /* цветные при наведении деления графика */
 .bar-color-1-1 {
   position: absolute;
-  top: 242px;
-  left: 52px;
+  top: 72%;
+  left: 16%;
+  width: 32%;
+  height: 23%;
   opacity: 0%;
 }
 .bar-color-2-1 {
   position: absolute;
-  top: 105px;
-  left: 19px;
+  top: 31%;
+  left: 6%;
+  height: 36%;
+  width: auto;
   opacity: 0%;
 }
 .bar-color-3-1 {
   position: absolute;
-  top: 18px;
-  left: 51px;
+  top: 5%;
+  left: 15%;
+  width: 32%;
+  height: auto;
   opacity: 0%;
 }
 .bar-color-4-1 {
   position: absolute;
-  top: 20px;
-  left: 182px;
+  top: 5.5%;
+  left: 54%;
+  height: 24%;
+  width: auto;
   opacity: 0%;
 }
 .bar-color-5-1 {
   position: absolute;
-  left: 276px;
-  top: 108px;
+  left: 81.5%;
+  top: 32%;
+  width: 12.5%;
+  height: auto;
   opacity: 0%;
 }
 /* второй квадрат */
 .second-square {
-  height: 338px;
-  width: 352px;
+  height: 100%;
+  width: 48%;
   border: black 2px solid;
 }
 /* второй квадрат верхний бокс с диаграммой */
 .bar-chart {
-  height: 169px;
+  height: 50%;
   border-bottom: black 2px solid;
   display: flex;
   align-items: flex-end;
@@ -181,12 +210,12 @@ img.img-heartline {
 .bar-chart > div {
   border: #ff00e5 2px solid;
   border-radius: 6px;
-  width: 30px;
+  width: 9%;
   margin: 14px 5px;
 }
 /* анимации и расположение боксов с розовым контуром  */
 #graph-1 {
-  height: 84px;
+  height: 40%;
   margin-left: 11px;
   animation: graph-1 400ms infinite linear;
   animation-delay: 100ms;
@@ -275,7 +304,7 @@ img.img-heartline {
 }
 #blue-graph-5 {
   width: 70%;
-  height: 52%;
+  height: 70%;
   border-radius: 6px;
   background-color: #00ffe0;
   margin-bottom: 5px;
@@ -296,13 +325,14 @@ img.img-heartline {
 }
 /* бокс бегущей строки с днк */
 .DNA {
-  height: 169px;
+  height: 50%;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 /* картинка бегущей строки */
 img.img-DNA {
-  height: 134px;
-  margin-top: 17px;
+  height: 80%;
   animation: img-DNA 3s infinite linear;
   animation-play-state: running;
 }
