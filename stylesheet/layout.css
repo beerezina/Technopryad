@@ -3,7 +3,7 @@ html {
   display: block;
   /* margin: 0 auto; */
   width: 100vw;
-  height: 100%;
+  /* height: 100%; */
   overflow: hidden;
   /* - убрать после написания кода */
   border: white 2px solid;
@@ -36,6 +36,7 @@ html {
   border: black 0.25vw solid;
   background-image: url(../images/first-butterfly-with-skeleton.svg);
   background-size: contain;
+  height: 100%;
   background-repeat: no-repeat;
 }
 
@@ -104,11 +105,11 @@ img.img-heartline {
   z-index: 11;
   font-family: DigiGraphics;
   color: #00ffe0;
-  font-size: 2.5vw;
+  font-size: 2.7vw;
 }
 
 /* svg ховер цвет */
-.pie_absolute_2 {
+.pie-absolute {
   position: absolute;
   height: 100%;
   width: 80%;
@@ -124,27 +125,28 @@ img.img-heartline {
 
 /* svg исчезающее */
 .pie-invisible {
+  position: absolute;
   width: 80%;
   height: 100%;
 }
 /* анимация для svg исчезающая  */
-.pie-disappears-5 {
+.pie-invisible-5 {
   animation: dissapears 200ms linear infinite;
   animation-delay: 4s;
 }
-.pie-disappears-4 {
+.pie-invisible-4 {
   animation: dissapears 500ms linear both;
   animation-delay: 3s;
 }
-.pie-disappears-3 {
+.pie-invisible-3 {
   animation: dissapears 500ms linear both;
   animation-delay: 2s;
 }
-.pie-disappears-2 {
+.pie-invisible-2 {
   animation: dissapears 500ms linear both;
   animation-delay: 1s;
 }
-.pie-disappears-1 {
+.pie-invisible-1 {
   animation: dissapears 1s linear both;
   animation-delay: 100ms;
 }
@@ -167,7 +169,7 @@ img.img-heartline {
 
 /* все графы с розовым контуром */
 .bar-chart > div {
-  border: #ff00e5 0.25vw solid;
+  border: #ff00e5 0.2vw solid;
   border-radius: 0.4vw;
   width: 9%;
   margin: 5% 2%;
@@ -285,7 +287,6 @@ img.img-heartline {
   background-color: #00ffe0;
   margin-bottom: 0.4vw;
 }
-
 /* бокс бегущей строки с днк */
 .DNA {
   height: 50%;

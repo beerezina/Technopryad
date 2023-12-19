@@ -11,7 +11,7 @@
   }
   .right-column {
     height: 63.3vw;
-    width: 28vw;
+    width: 29vw;
   }
   .data-capture {
     height: 98.95vw;
@@ -21,7 +21,7 @@
   }
   .heartline {
     height: 21%;
-    width: 94.79vw;
+    width: 95.85vw;
     top: 80vw;
     left: 20px;
     position: absolute;
@@ -37,12 +37,18 @@
   }
   .days {
     height: 27.5vw;
-    width: 27.5vw;
+    width: 29vw;
     border-bottom: 0;
   }
+
   .second-square {
     height: 27.5vw;
-    width: 27.5vw;
+    width: 29vw;
+  }
+  @keyframes img-heartline {
+    100% {
+      transform: translate(-46%);
+    }
   }
 }
 /* телефон */
@@ -68,6 +74,9 @@
   }
   img.img-heartline {
     width: 226vw;
+  }
+  .days > p {
+    font-size: 5.7vw;
   }
   #graph-1,
   #graph-2,
