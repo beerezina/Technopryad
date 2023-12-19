@@ -2,10 +2,10 @@ html {
   background-color: #413f53;
   display: block;
   /* margin: 0 auto; */
-  width: 100vw;
+  /* width: 100vw; */
   /* height: 100%; */
   /* - убрать после написания кода */
-  border: white 2px solid;
+  /* border: white 2px solid; */
 }
 
 /* секция с заголовком */
@@ -19,6 +19,7 @@ html {
   font-size: 7.2vw;
   color: #ff00e5;
   text-align: center;
+  overflow: hidden;
 }
 
 /* секция с data capture */
@@ -37,7 +38,7 @@ html {
   border: black 0.25vw solid;
   background-image: url(../images/first-butterfly-with-skeleton.svg);
   background-size: contain;
-  height: 99%;
+  height: 99.5%;
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -47,6 +48,7 @@ img.cross-scanner {
   width: 100%;
   height: 100%;
   animation-play-state: running;
+  overflow: hidden;
   animation: 3s linear 0s normal none infinite running cross-scanner;
 }
 
@@ -54,10 +56,9 @@ img.cross-scanner {
 .right-column {
   display: flex;
   flex-direction: column;
-  height: 101%;
+  height: 100%;
   width: 50vw;
   padding-left: 20px;
-  overflow: hidden;
 }
 
 /* текстовый блок data capture */
@@ -65,11 +66,13 @@ img.cross-scanner {
   font-family: DigiGraphics;
   font-size: 3.96vw;
   color: #00ffe0;
+  overflow: hidden;
 }
 
 /* бокс бегущей линии сердцебиения */
 .heartline {
-  border: black 0.25vw solid;
+  /* border: black 0.25vw solid; */
+  outline: black 0.25vw solid;
   height: 36%;
   position: relative;
   margin-bottom: 20px;
@@ -82,6 +85,7 @@ img.img-heartline {
   position: absolute;
   animation: img-heartline 3s infinite linear;
   animation-play-state: running;
+  overflow: hidden;
 }
 
 /* общий блок снизу с двумя квадратами */
@@ -94,13 +98,15 @@ img.img-heartline {
  с днями и контуром */
 .days {
   position: relative;
-  height: 96%;
+  height: 100%;
   width: 48%;
-  border: black 0.25vw solid;
+  /* border: black 0.25vw solid; */
+  outline: black 0.25vw solid;
   margin-right: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 /* текст 5/25 days */
 .days > p {
@@ -156,9 +162,11 @@ img.img-heartline {
 
 /* второй квадрат */
 .second-square {
-  height: 96%;
+  height: 100%;
   width: 48%;
-  border: black 0.25vw solid;
+  /* border: black 0.25vw solid; */
+  outline: black 0.25vw solid;
+  overflow: hidden;
 }
 
 /* второй квадрат верхний бокс с bar chart */
@@ -168,6 +176,7 @@ img.img-heartline {
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
+  overflow: hidden;
 }
 
 /* все графы с розовым контуром */
