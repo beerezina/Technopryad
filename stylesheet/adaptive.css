@@ -8,9 +8,11 @@
   .left-column {
     width: 64.2vw;
     height: 64.2vw;
+    outline: black 0.25vw solid;
+    border: 0;
   }
   .right-column {
-    height: 63.3vw;
+    height: 64.2vw;
     width: 29vw;
   }
   .data-capture {
@@ -20,6 +22,9 @@
     font-size: 4.6vw;
   }
   .heartline {
+    outline: 0;
+
+    border: black 0.25vw solid;
     height: 21%;
     width: 95.85vw;
     top: 80vw;
@@ -36,9 +41,9 @@
     flex-direction: column;
   }
   .days {
+    margin-bottom: 0.2vw;
     height: 27.5vw;
     width: 29vw;
-    border-bottom: 0;
   }
 
   .second-square {
