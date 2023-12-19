@@ -9,8 +9,11 @@
 }
 /* анимация бегущей линии сердцебиения */
 @keyframes img-heartline {
+  0% {
+    background-position: 100% 50%;
+  }
   100% {
-    transform: translate(-58%);
+    background-position: -100% 50%;
   }
 }
 /* анимация бегущей линии ДНК */
@@ -226,4 +229,7 @@ img.img-DNA:hover {
 }
 .skelet-10:hover {
   background-image: url(../images/skelet-10.svg);
+}
+.heartline:hover {
+  animation-play-state: paused;
 }

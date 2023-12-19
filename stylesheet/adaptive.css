@@ -9,7 +9,7 @@
   }
 
   .data-capture {
-    height: 98.951vw;
+    height: 103.951vw;
     padding: 2.604vw;
   }
   .heartline {
@@ -47,5 +47,46 @@
   .left-column {
     height: 64.193vw;
     width: 64.193vw;
+  }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 700px) {
+  .data-capture {
+    flex-direction: column;
+    height: 192.884vw;
+    padding: 4.831vw;
+  }
+  .text-data-capture {
+    font-size: 9.812vw;
+    text-align: center;
+    padding: 2.831vw 0 2vw;
+  }
+  .header {
+    padding-top: 4.831vw;
+  }
+  .left-column {
+    width: 90.338vw;
+    height: 90.338vw;
+  }
+  .right-column {
+    width: 90.338vw;
+    height: 92.169vw;
+    padding-left: 0;
+  }
+  .heartline {
+    width: 90.338vw;
+    height: 83.821vw;
+    margin-bottom: 4.831vw;
+  }
+
+  .two-squares {
+    width: 90.338vw;
+    height: 90.338vw;
+  }
+  .days {
+    margin-right: 4.831vw;
+  }
+  .days > p {
+    font-size: 4.7vw;
   }
 }
