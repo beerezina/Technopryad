@@ -4,7 +4,6 @@ html {
   /* margin: 0 auto; */
   width: 100vw;
   /* height: 100%; */
-  overflow: hidden;
   /* - убрать после написания кода */
   border: white 2px solid;
 }
@@ -24,6 +23,7 @@ html {
 /* секция с data capture */
 .data-capture {
   display: flex;
+  overflow: hidden;
   width: 100vw;
   height: 48.36vw;
   padding: 20px;
@@ -292,6 +292,7 @@ img.img-heartline {
   height: 50%;
   overflow: hidden;
   display: flex;
+
   align-items: center;
 }
 /* картинка бегущей строки */
@@ -300,3 +301,163 @@ img.img-DNA {
   animation: img-DNA 3s infinite linear;
   animation-play-state: running;
 }
+
+/* секция select form */
+.select-form {
+  overflow: hidden;
+  width: 100vw;
+  height: 48.36vw;
+  display: flex;
+  flex-direction: column;
+}
+.top-butterfly {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom-butterfly {
+  display: flex;
+  justify-content: space-evenly;
+}
+.skelet-1,
+.skelet-2,
+.skelet-3,
+.skelet-4,
+.skelet-5,
+.skelet-6,
+.skelet-7,
+.skelet-8,
+.skelet-9,
+.skelet-10 {
+  border: black 0.25vw solid;
+  width: 17.066vw;
+  height: 17.066vw;
+}
+.skelet-1 > img,
+.skelet-2 > img,
+.skelet-3 > img,
+.skelet-4 > img,
+.skelet-5 > img,
+.skelet-6 > img,
+.skelet-7 > img,
+.skelet-8 > img,
+.skelet-9 > img,
+.skelet-10 > img {
+  width: 100%;
+  height: 100%;
+}
+
+.skelet-1 {
+  /* background-image: url(../images/skelet-1.svg); */
+  /* background-size: 17.1vw 17.07vw; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #22212c;
+  display: flex;
+  align-items: center;
+}
+
+.skelet-2 {
+  /* background-image: url(../images/skelet-2.svg); */
+  /* background-size: 17.08vw 17.08vw; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #22212c;
+  display: flex;
+  align-items: center;
+}
+.skelet-3 {
+  /* background-image: url(../images/skelet-3.svg); */
+  /* background-size: 17.1vw 17.07vw; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #22212c;
+  display: flex;
+  align-items: center;
+}
+.skelet-4 {
+  /* background-image: url(../images/skelet-4.svg); */
+  /* background-size: 17.08vw 17.08vw; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #22212c;
+  display: flex;
+  align-items: center;
+}
+.skelet-5 {
+  /* background-image: url(../images/skelet-5.svg); */
+  /* background-size: 17.1vw 17.07vw; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #22212c;
+  display: flex;
+  align-items: center;
+}
+.skelet-6 {
+  /* background-image: url(../images/skelet-6.svg); */
+  /* background-size: 17.1vw 17.1vw; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #22212c;
+  display: flex;
+  align-items: center;
+}
+.skelet-7 {
+  /* background-image: url(../images/skelet-7.svg); */
+  /* background-size: 17.08vw 17.09vw; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #22212c;
+  display: flex;
+  align-items: center;
+}
+.skelet-8 {
+  /* background-image: url(../images/skelet-8.svg); */
+  /* background-size: 17.1vw 17.1vw; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #22212c;
+  display: flex;
+  align-items: center;
+}
+.skelet-9 {
+  /* background-image: url(../images/skelet-9.svg); */
+  /* background-size: 17.08vw 17.1vw; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #22212c;
+  display: flex;
+  align-items: center;
+}
+.skelet-10 {
+  /* background-image: url(../images/skelet-10.svg); */
+  /* background-size: 17.09vw 17.09vw; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #22212c;
+  display: flex;
+  align-items: center;
+}
+
+/* .color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5,
+.color-6,
+.color-7,
+.color-8,
+.color-9,
+.color-10 {
+  width: 100%;
+  height: 100%;
+} */

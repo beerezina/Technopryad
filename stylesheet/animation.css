@@ -166,3 +166,64 @@ img.img-DNA:hover {
   fill: #00ffe0;
   opacity: 100%;
 }
+.color-1:hover {
+  opacity: 0%;
+}
+.color-2:hover {
+  opacity: 0%;
+}
+.color-3:hover {
+  opacity: 0%;
+}
+.color-4:hover {
+  opacity: 0%;
+}
+.color-5:hover {
+  opacity: 0%;
+}
+.color-6:hover {
+  opacity: 0%;
+}
+
+.color-7:hover {
+  opacity: 0%;
+}
+.color-8:hover {
+  opacity: 0%;
+}
+.color-9:hover {
+  opacity: 0%;
+}
+.color-10:hover {
+  opacity: 0%;
+}
+.skelet-1:hover {
+  background-image: url(../images/skelet-1.svg);
+}
+.skelet-2:hover {
+  background-image: url(../images/skelet-2.svg);
+}
+.skelet-3:hover {
+  background-image: url(../images/skelet-3.svg);
+}
+.skelet-4:hover {
+  background-image: url(../images/skelet-4.svg);
+}
+.skelet-5:hover {
+  background-image: url(../images/skelet-5.svg);
+}
+.skelet-6:hover {
+  background-image: url(../images/skelet-6.svg);
+}
+.skelet-7:hover {
+  background-image: url(../images/skelet-7.svg);
+}
+.skelet-8:hover {
+  background-image: url(../images/skelet-8.svg);
+}
+.skelet-9:hover {
+  background-image: url(../images/skelet-9.svg);
+}
+.skelet-10:hover {
+  background-image: url(../images/skelet-10.svg);
+}
