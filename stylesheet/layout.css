@@ -3,11 +3,12 @@ html {
   display: block;
   /* margin: 0 auto; */
   width: 100vw;
+  height: 100%;
   overflow: hidden;
-
-  border: white 2px solid;
   /* - убрать после написания кода */
+  border: white 2px solid;
 }
+
 /* секция с заголовком */
 .header {
   margin-top: 3.2vw;
@@ -19,6 +20,7 @@ html {
   color: #ff00e5;
   text-align: center;
 }
+
 /* секция с data capture */
 .data-capture {
   display: flex;
@@ -32,13 +34,11 @@ html {
 .left-column {
   background-color: #22212c;
   border: black 0.25vw solid;
-  width: 100%;
-  height: 100%;
   background-image: url(../images/first-butterfly-with-skeleton.svg);
   background-size: contain;
-  background-position: center;
   background-repeat: no-repeat;
 }
+
 /* картинка сканнера и анимация */
 img.cross-scanner {
   width: 100%;
@@ -46,7 +46,8 @@ img.cross-scanner {
   animation-play-state: running;
   animation: 3s linear 0s normal none infinite running cross-scanner;
 }
-/* правая колонка */
+
+/* блок правой колонки */
 .right-column {
   display: flex;
   flex-direction: column;
@@ -54,12 +55,14 @@ img.cross-scanner {
   width: 50vw;
   padding-left: 20px;
 }
+
 /* текстовый блок data capture */
 .text-data-capture {
   font-family: DigiGraphics;
   font-size: 3.96vw;
   color: #00ffe0;
 }
+
 /* бокс бегущей линии сердцебиения */
 .heartline {
   border: black 0.25vw solid;
@@ -76,12 +79,15 @@ img.img-heartline {
   animation: img-heartline 3s infinite linear;
   animation-play-state: running;
 }
+
 /* общий блок снизу с двумя квадратами */
 .two-squares {
   display: flex;
   height: 51.5%;
 }
-/* блок с днями и контур*/
+
+/* блок pie-chart (диаграмма)
+ с днями и контуром */
 .days {
   position: relative;
   height: 100%;
@@ -92,39 +98,54 @@ img.img-heartline {
   align-items: center;
   justify-content: center;
 }
-/* размер диаграммы с ховероом (абсолютной) */
-.pie_absolute {
+/* текст 5/25 days */
+.days > p {
   position: absolute;
-  height: 100%;
-  width: 80%;
-  z-index: 10;
+  z-index: 11;
+  font-family: DigiGraphics;
+  color: #00ffe0;
+  font-size: 2.5vw;
 }
+
+/* svg ховер цвет */
 .pie_absolute_2 {
   position: absolute;
   height: 100%;
   width: 80%;
   z-index: 9;
 }
+/* svg контур */
+.pie-color {
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  z-index: 10;
+}
 
-/* постепенно исчезающие деления круг.диаграммы  */
+/* svg исчезающее */
+.pie-invisible {
+  width: 80%;
+  height: 100%;
+}
+/* анимация для svg исчезающая  */
 .pie-disappears-5 {
-  animation: dissapears-1 200ms linear infinite;
+  animation: dissapears 200ms linear infinite;
   animation-delay: 4s;
 }
 .pie-disappears-4 {
-  animation: dissapears-2 500ms linear both;
+  animation: dissapears 500ms linear both;
   animation-delay: 3s;
 }
 .pie-disappears-3 {
-  animation: dissapears-3 500ms linear both;
+  animation: dissapears 500ms linear both;
   animation-delay: 2s;
 }
 .pie-disappears-2 {
-  animation: dissapears-4 500ms linear both;
+  animation: dissapears 500ms linear both;
   animation-delay: 1s;
 }
 .pie-disappears-1 {
-  animation: dissapears-5 1s linear both;
+  animation: dissapears 1s linear both;
   animation-delay: 100ms;
 }
 
@@ -134,7 +155,8 @@ img.img-heartline {
   width: 48%;
   border: black 0.25vw solid;
 }
-/* второй квадрат верхний бокс с диаграммой */
+
+/* второй квадрат верхний бокс с bar chart */
 .bar-chart {
   height: 50%;
   border-bottom: black 0.25vw solid;
@@ -143,14 +165,16 @@ img.img-heartline {
   justify-content: space-evenly;
 }
 
-/* все боксы с розовым контуром */
+/* все графы с розовым контуром */
 .bar-chart > div {
   border: #ff00e5 0.25vw solid;
   border-radius: 0.4vw;
   width: 9%;
   margin: 5% 2%;
 }
-/* анимации и расположение боксов с розовым контуром  */
+
+/* анимации и расположение 
+граф с розовым контуром  */
 #graph-1 {
   height: 40%;
   margin-left: 11px;
@@ -210,7 +234,8 @@ img.img-heartline {
   justify-content: center;
   align-items: flex-end;
 }
-/* бирюзовые боксы внутри  */
+
+/* бирюзовые графы внутри  */
 #blue-graph-1 {
   width: 70%;
   height: 82%;
@@ -260,6 +285,7 @@ img.img-heartline {
   background-color: #00ffe0;
   margin-bottom: 0.4vw;
 }
+
 /* бокс бегущей строки с днк */
 .DNA {
   height: 50%;

@@ -1,12 +1,10 @@
-/* айпад */
-
+/* планшет */
 @media only screen and (min-device-width: 700px) and (max-device-width: 1024px) {
+  /* первый секшн */
   .header {
     margin-top: 20px;
   }
-  .data-capture {
-    height: 98.95vw;
-  }
+  /* второй секшн */
   .left-column {
     width: 64.2vw;
     height: 64.2vw;
@@ -14,6 +12,9 @@
   .right-column {
     height: 63.3vw;
     width: 28vw;
+  }
+  .data-capture {
+    height: 98.95vw;
   }
   .text-data-capture {
     font-size: 4.6vw;
@@ -44,7 +45,7 @@
     width: 27.5vw;
   }
 }
-
+/* телефон */
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
   .header {
     margin-top: 20px;
@@ -57,7 +58,6 @@
     width: 99%;
   }
   .right-column {
-    height: 100%;
     width: 100%;
     padding-left: 0;
   }
@@ -69,7 +69,6 @@
   img.img-heartline {
     width: 226vw;
   }
-
   #graph-1,
   #graph-2,
   #graph-3,
@@ -79,7 +78,6 @@
   #graph-7 {
     border-radius: 3px;
   }
-
   #blue-graph-1,
   #blue-graph-2,
   #blue-graph-3,

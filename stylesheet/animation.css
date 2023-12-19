@@ -137,7 +137,7 @@ img.img-DNA:hover {
   animation-play-state: paused;
 }
 /* анимации исчезания для графика с днями */
-@keyframes dissapears-1 {
+@keyframes dissapears {
   0% {
     opacity: 100%;
   }
@@ -145,72 +145,24 @@ img.img-DNA:hover {
     opacity: 0%;
   }
 }
-@keyframes dissapears-2 {
-  0% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 0%;
-  }
-}
-@keyframes dissapears-3 {
-  0% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 0%;
-  }
-}
-@keyframes dissapears-4 {
-  0% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 0%;
-  }
-}
-@keyframes dissapears-5 {
-  0% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 0%;
-  }
-}
-/* анимации диаграммы - цвет при наведении */
-/* .pie_absolute-1:hover {
-  fill: #00ffe0;
-}
-.pie-absolute-2:hover {
+
+.pie-color-1:hover {
   fill: #00ffe0;
   opacity: 100%;
 }
-.pie_absolute-3:hover {
-  fill: #00ffe0;
-}
-.pie_absolute-4:hover {
-  fill: #00ffe0;
-}
-.pie_absolute-5:hover {
-  fill: #00ffe0;
-} */
-.pie_absolute-1:hover {
+.pie-color-2:hover {
   fill: #00ffe0;
   opacity: 100%;
 }
-.pie-absolute-2:hover {
+.pie-color-3:hover {
   fill: #00ffe0;
   opacity: 100%;
 }
-.pie_absolute-3:hover {
+.pie-color-4:hover {
   fill: #00ffe0;
   opacity: 100%;
 }
-.pie_absolute-4:hover {
-  fill: #00ffe0;
-  opacity: 100%;
-}
-.pie_absolute-5:hover {
+.pie-color-5:hover {
   fill: #00ffe0;
   opacity: 100%;
 }
