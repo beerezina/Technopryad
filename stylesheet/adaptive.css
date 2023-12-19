@@ -2,104 +2,50 @@
 @media only screen and (min-device-width: 700px) and (max-device-width: 1024px) {
   /* первый секшн */
   .header {
-    margin-top: 20px;
-  }
-  /* второй секшн */
-  .left-column {
-    width: 64.2vw;
-    height: 64.2vw;
-    outline: black 0.25vw solid;
-    border: 0;
-  }
-  .right-column {
-    height: 64.2vw;
-    width: 29vw;
-  }
-  .data-capture {
-    height: 98.95vw;
+    padding-top: 2.604vw;
   }
   .text-data-capture {
-    font-size: 4.6vw;
+    font-size: 4.853vw;
+  }
+
+  .data-capture {
+    height: 98.951vw;
+    padding: 2.604vw;
   }
   .heartline {
-    outline: 0;
-
-    border: black 0.25vw solid;
-    height: 21%;
-    width: 95.85vw;
-    top: 80vw;
-    left: 20px;
     position: absolute;
+    top: 67.082vw;
+    left: -64.192vw;
+    width: 94.792vw;
+    height: 31.292vw;
   }
   img.img-heartline {
     width: auto;
   }
-  .two-squares {
-    width: 27.8vw;
-    height: 53.15vw;
-    margin-top: 1.85vw;
+  .right-column {
+    position: relative;
+    height: 64.193vw;
+    width: 27.995vw;
     flex-direction: column;
+    padding-left: 2.604vw;
+  }
+  .two-squares {
+    flex-direction: column;
+    height: 53.672vw;
+    width: 27.58vw;
+    margin-top: 1.39vw;
+  }
+  .second-square {
+    height: 100%;
+    width: 100%;
+    margin-top: -0.2vw;
   }
   .days {
-    margin-bottom: 0.2vw;
-    height: 27.5vw;
-    width: 29vw;
-  }
-
-  .second-square {
-    height: 27.5vw;
-    width: 29vw;
-  }
-  @keyframes img-heartline {
-    100% {
-      transform: translate(-46%);
-    }
-  }
-}
-/* телефон */
-@media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
-  .header {
-    margin-top: 20px;
-  }
-  .data-capture {
-    flex-direction: column;
-    height: 189vw;
+    height: 100%;
+    width: 100%;
   }
   .left-column {
-    width: 99%;
-  }
-  .right-column {
-    width: 100%;
-    padding-left: 0;
-  }
-  .text-data-capture {
-    text-align: center;
-    padding: 3vw;
-    font-size: 6vw;
-  }
-  img.img-heartline {
-    width: 226vw;
-  }
-  .days > p {
-    font-size: 5.7vw;
-  }
-  #graph-1,
-  #graph-2,
-  #graph-3,
-  #graph-4,
-  #graph-5,
-  #graph-6,
-  #graph-7 {
-    border-radius: 3px;
-  }
-  #blue-graph-1,
-  #blue-graph-2,
-  #blue-graph-3,
-  #blue-graph-4,
-  #blue-graph-5,
-  #blue-graph-6,
-  #blue-graph-7 {
-    margin-bottom: 0.5vw;
-    border-radius: 2px;
+    height: 64.193vw;
+    width: 64.193vw;
   }
 }
