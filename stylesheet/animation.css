@@ -178,11 +178,12 @@ img.img-DNA:hover {
   }
 }
 /* анимации диаграммы - цвет при наведении */
-.pie_absolute-1:hover {
+/* .pie_absolute-1:hover {
   fill: #00ffe0;
 }
 .pie-absolute-2:hover {
   fill: #00ffe0;
+  opacity: 100%;
 }
 .pie_absolute-3:hover {
   fill: #00ffe0;
@@ -192,4 +193,24 @@ img.img-DNA:hover {
 }
 .pie_absolute-5:hover {
   fill: #00ffe0;
+} */
+.pie_absolute-1:hover {
+  fill: #00ffe0;
+  opacity: 100%;
+}
+.pie-absolute-2:hover {
+  fill: #00ffe0;
+  opacity: 100%;
+}
+.pie_absolute-3:hover {
+  fill: #00ffe0;
+  opacity: 100%;
+}
+.pie_absolute-4:hover {
+  fill: #00ffe0;
+  opacity: 100%;
+}
+.pie_absolute-5:hover {
+  fill: #00ffe0;
+  opacity: 100%;
 }

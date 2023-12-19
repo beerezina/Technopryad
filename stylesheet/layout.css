@@ -3,6 +3,7 @@ html {
   display: block;
   /* margin: 0 auto; */
   width: 100vw;
+  overflow: hidden;
 
   border: white 2px solid;
   /* - убрать после написания кода */
@@ -96,6 +97,13 @@ img.img-heartline {
   position: absolute;
   height: 100%;
   width: 80%;
+  z-index: 10;
+}
+.pie_absolute_2 {
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  z-index: 9;
 }
 
 /* постепенно исчезающие деления круг.диаграммы  */
