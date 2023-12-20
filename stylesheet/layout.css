@@ -320,10 +320,9 @@ img.img-DNA {
 /* секция select form */
 .select-form {
   position: relative;
-  padding: 1.389vw 0;
-  /* overflow: hidden; */
+  overflow: hidden;
   width: 100vw;
-  height: 48.36vw;
+  height: 47.36vw;
   display: flex;
   flex-direction: column;
 }
@@ -334,19 +333,27 @@ img.img-DNA {
     transform: translate(-217px); */
 
 .select-line {
-  position: absolute;
+  /* background-color: #22212c; */
 
-  width: 144.583vw;
+  position: absolute;
+  height: 9vw;
+  width: 268.583vw;
   animation: select-line 3s infinite linear;
   animation-play-state: running;
 }
 .top-butterfly {
   display: flex;
-  justify-content: space-evenly;
+  box-sizing: border-box;
+  width: 200vw;
+  /* justify-content: space-evenly; */
+  animation: top-butterfly 5s infinite linear;
 }
 .bottom-butterfly {
   display: flex;
-  justify-content: space-evenly;
+  box-sizing: border-box;
+  /* justify-content: space-evenly; */
+  width: 200vw;
+  animation: top-butterfly 5s infinite linear;
 }
 /* блоки + скелеты на бэкграунде */
 .skelet-1,
@@ -358,10 +365,24 @@ img.img-DNA {
 .skelet-7,
 .skelet-8,
 .skelet-9,
-.skelet-10 {
+.skelet-10,
+.skelet-1-1,
+.skelet-2-1,
+.skelet-3-1,
+.skelet-4-1,
+.skelet-5-1,
+.skelet-6-1,
+.skelet-7-1,
+.skelet-8-1,
+.skelet-9-1,
+.skelet-10-1 {
+  margin-right: 1.389vw;
+  box-sizing: border-box;
   border: black 0.25vw solid;
-  width: 17.066vw;
-  height: 17.066vw;
+  /* width: 17.066vw;
+  height: 17.066vw; */
+  /* width: 30.49vw;
+  height: 30.49vw; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -379,7 +400,17 @@ img.img-DNA {
 .skelet-7 > img,
 .skelet-8 > img,
 .skelet-9 > img,
-.skelet-10 > img {
+.skelet-10 > img,
+.skelet-1-1 > img,
+.skelet-2-1 > img,
+.skelet-3-1 > img,
+.skelet-4-1 > img,
+.skelet-5-1 > img,
+.skelet-6-1 > img,
+.skelet-7-1 > img,
+.skelet-8-1 > img,
+.skelet-9-1 > img,
+.skelet-10-1 > img {
   width: 100%;
   height: 100%;
 }
@@ -387,8 +418,9 @@ img.img-DNA {
 /* репозиторий обновись пэж */
 
 .text-select-form {
-  height: 7.85vw;
+  height: 9.85vw;
   width: 100%;
+  padding: 1.389vw 0;
   display: flex;
   align-items: center;
   position: relative;
@@ -398,6 +430,12 @@ img.img-DNA {
   font-family: DigiGraphics;
   color: #00ffe0;
   font-size: 1.67vw;
+  width: 256.583vw;
 
-  animation: infinite linear 3s text-line;
+  animation: infinite linear 8s text-line;
+}
+.circle {
+  fill: #ff00e5;
+  animation: circle 500ms infinite linear;
+  animation-delay: 1s;
 }

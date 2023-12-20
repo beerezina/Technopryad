@@ -48,6 +48,29 @@
     height: 64.193vw;
     width: 64.193vw;
   }
+  /* второй экран  */
+  .select-form {
+    height: 125.781vw;
+  }
+  .top-butterfly,
+  .bottom-butterfly {
+    width: 500vw;
+    height: 47vw;
+    animation: infinite linear 3s top-butterfly-2;
+  }
+  .select-line {
+    height: 20vw;
+    width: auto;
+    animation: infinite linear 8s text-line-2;
+  }
+  .text-select-form {
+    height: 20.85vw;
+  }
+  .text-select-form > p {
+    width: 1000vw;
+    font-size: 3.67vw;
+    animation: infinite linear 3s text-line-3;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
@@ -103,6 +126,52 @@
   .skelet-8,
   .skelet-9,
   .skelet-10 {
+    border: 0.465vw solid black;
+  }
+
+  /* второй экран */
+  .select-form {
+    height: 125.781vw;
+  }
+  .top-butterfly,
+  .bottom-butterfly {
+    width: 500vw;
+    height: 47vw;
+    animation: infinite linear 3s top-butterfly-2;
+  }
+  .select-line {
+    height: 20vw;
+    width: auto;
+    animation: infinite linear 8s text-line-2;
+  }
+  .text-select-form {
+    height: 20.85vw;
+  }
+  .text-select-form > p {
+    width: 1000vw;
+    font-size: 3.67vw;
+    animation: infinite linear 3s text-line-3;
+  }
+  .skelet-1,
+  .skelet-2,
+  .skelet-3,
+  .skelet-4,
+  .skelet-5,
+  .skelet-6,
+  .skelet-7,
+  .skelet-8,
+  .skelet-9,
+  .skelet-10,
+  .skelet-1-1,
+  .skelet-2-1,
+  .skelet-3-1,
+  .skelet-4-1,
+  .skelet-5-1,
+  .skelet-6-1,
+  .skelet-7-1,
+  .skelet-8-1,
+  .skelet-9-1,
+  .skelet-10-1 {
     border: 0.465vw solid black;
   }
 }

@@ -27,7 +27,7 @@ img.cross-scanner:hover {
   animation-play-state: paused;
 }
 /* остановка при наведении бегущей линии сердцебиения */
-img.img-heartline:hover {
+.heartline:hover {
   animation-play-state: paused;
 }
 /* остановка при наведении бегущей линии ДНК  */
@@ -169,6 +169,12 @@ img.img-DNA:hover {
   fill: #00ffe0;
   opacity: 100%;
 }
+.top-butterfly:hover {
+  animation-play-state: paused;
+}
+.bottom-butterfly:hover {
+  animation-play-state: paused;
+}
 .color-1:hover {
   opacity: 0%;
 }
@@ -200,54 +206,179 @@ img.img-DNA:hover {
 .color-10:hover {
   opacity: 0%;
 }
+.color-1-1:hover {
+  opacity: 0%;
+}
+.color-2-1:hover {
+  opacity: 0%;
+}
+.color-3-1:hover {
+  opacity: 0%;
+}
+.color-4-1:hover {
+  opacity: 0%;
+}
+.color-5-1:hover {
+  opacity: 0%;
+}
+.color-6-1:hover {
+  opacity: 0%;
+}
+
+.color-7-1:hover {
+  opacity: 0%;
+}
+.color-8-1:hover {
+  opacity: 0%;
+}
+.color-9-1:hover {
+  opacity: 0%;
+}
+.color-10-1:hover {
+  opacity: 0%;
+}
 .skelet-1:hover {
   background-image: url(../images/skelet-1.svg);
+  background-color: #1c1b22;
 }
 .skelet-2:hover {
   background-image: url(../images/skelet-2.svg);
+  background-color: #1c1b22;
 }
 .skelet-3:hover {
   background-image: url(../images/skelet-3.svg);
+  background-color: #1c1b22;
 }
 .skelet-4:hover {
   background-image: url(../images/skelet-4.svg);
+  background-color: #1c1b22;
 }
 .skelet-5:hover {
   background-image: url(../images/skelet-5.svg);
+  background-color: #1c1b22;
 }
 .skelet-6:hover {
   background-image: url(../images/skelet-6.svg);
+  background-color: #1c1b22;
 }
 .skelet-7:hover {
   background-image: url(../images/skelet-7.svg);
+  background-color: #1c1b22;
 }
 .skelet-8:hover {
   background-image: url(../images/skelet-8.svg);
+  background-color: #1c1b22;
 }
 .skelet-9:hover {
   background-image: url(../images/skelet-9.svg);
+  background-color: #1c1b22;
 }
 .skelet-10:hover {
   background-image: url(../images/skelet-10.svg);
+  background-color: #1c1b22;
 }
-.heartline:hover {
-  animation-play-state: paused;
+.skelet-1-1:hover {
+  background-image: url(../images/skelet-1.svg);
+  background-color: #1c1b22;
+}
+.skelet-2-1:hover {
+  background-image: url(../images/skelet-2.svg);
+  background-color: #1c1b22;
+}
+.skelet-3-1:hover {
+  background-image: url(../images/skelet-3.svg);
+  background-color: #1c1b22;
+}
+.skelet-4-1:hover {
+  background-image: url(../images/skelet-4.svg);
+  background-color: #1c1b22;
+}
+.skelet-5-1:hover {
+  background-image: url(../images/skelet-5.svg);
+  background-color: #1c1b22;
+}
+.skelet-6-1:hover {
+  background-image: url(../images/skelet-6.svg);
+  background-color: #1c1b22;
+}
+.skelet-7-1:hover {
+  background-image: url(../images/skelet-7.svg);
+  background-color: #1c1b22;
+}
+.skelet-8-1:hover {
+  background-image: url(../images/skelet-8.svg);
+  background-color: #1c1b22;
+}
+.skelet-9-1:hover {
+  background-image: url(../images/skelet-9.svg);
+  background-color: #1c1b22;
+}
+.skelet-10-1:hover {
+  background-image: url(../images/skelet-10.svg);
+  background-color: #1c1b22;
 }
 
 @keyframes select-line {
   0% {
-    transform: translate(-150vw);
+    transform: translate(-146vw);
+  }
+  100% {
+    transform: translate(-21vw);
+  }
+}
+.select-line:hover {
+  animation-play-state: paused;
+}
+
+@keyframes text-line {
+  0% {
+    transform: translate(-143vw);
   }
   100% {
     transform: translate(0px);
   }
 }
-
-@keyframes text-line {
+@keyframes top-butterfly {
   0% {
-    transform: translate(-150vw);
+    margin-left: -100vw;
+  }
+  100% {
+    margin: 0vw;
+  }
+}
+@keyframes circle {
+  0% {
+    fill: #1c1b22;
+  }
+  50% {
+    fill: none;
+  }
+  100% {
+    fill: #ff00e5;
+  }
+}
+@keyframes text-line-2 {
+  0% {
+    transform: translate(-367vw);
+  }
+  100% {
+    transform: translate(0vw);
+  }
+}
+
+@keyframes text-line-3 {
+  0% {
+    transform: translate(-176vw);
   }
   100% {
     transform: translate(0px);
+  }
+}
+@keyframes top-butterfly-2 {
+  0% {
+    margin-left: -242vw;
+  }
+  100% {
+    margin: 0vw;
   }
 }
