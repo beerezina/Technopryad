@@ -162,8 +162,9 @@
     animation: infinite linear 3s top-butterfly-2;
   }
   .select-line {
+    /* height: 20vw; */
     height: 20vw;
-    width: auto;
+    width: 501.928vw;
     animation: infinite linear 8s text-line-2;
   }
   .text-select-form {
