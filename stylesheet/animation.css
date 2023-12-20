@@ -233,3 +233,21 @@ img.img-DNA:hover {
 .heartline:hover {
   animation-play-state: paused;
 }
+
+@keyframes select-line {
+  0% {
+    transform: translate(-150vw);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+
+@keyframes text-line {
+  0% {
+    transform: translate(-150vw);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
