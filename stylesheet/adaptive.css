@@ -38,11 +38,12 @@
   .second-square {
     height: 100%;
     width: 100%;
-    margin-top: -0.2vw;
+    /* margin-top: -0.2vw; */
   }
   .days {
     height: 100%;
     width: 100%;
+    border-bottom: none;
   }
   .left-column {
     height: 64.193vw;
@@ -53,7 +54,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
   .data-capture {
     flex-direction: column;
-    height: 192.884vw;
+    height: 177.884vw;
     padding: 4.831vw;
   }
   .text-data-capture {
@@ -70,23 +71,39 @@
   }
   .right-column {
     width: 90.338vw;
-    height: 92.169vw;
+    height: 78.169vw;
     padding-left: 0;
   }
   .heartline {
     width: 90.338vw;
-    height: 83.821vw;
+    height: 23vw;
     margin-bottom: 4.831vw;
   }
 
   .two-squares {
     width: 90.338vw;
-    height: 90.338vw;
+    height: 40.338vw;
   }
   .days {
     margin-right: 4.831vw;
   }
   .days > p {
     font-size: 4.7vw;
+  }
+  .left-column,
+  .heartline,
+  .days,
+  .second-square,
+  .skelet-1,
+  .skelet-2,
+  .skelet-3,
+  .skelet-4,
+  .skelet-5,
+  .skelet-6,
+  .skelet-7,
+  .skelet-8,
+  .skelet-9,
+  .skelet-10 {
+    border: 0.465vw solid black;
   }
 }
