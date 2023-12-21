@@ -581,6 +581,7 @@ img.screw-3 {
 
 .box-text-loading {
   font-family: DigiGraphics;
+  font-size: 2vw;
   height: 1.994vw;
   position: relative;
   display: flex;
