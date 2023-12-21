@@ -23,7 +23,7 @@ html {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  width: 100%;
+
   height: 48.333vw;
   padding: 1.389vw;
   box-sizing: border-box;
@@ -84,14 +84,6 @@ img.cross-scanner {
   background-position-y: 50%;
 
   animation: img-heartline 18s infinite linear;
-  animation-play-state: running;
-}
-/* картинка с линией и бегущая анимация */
-img.img-heartline {
-  height: 100%;
-  width: 116vw;
-  position: absolute;
-  animation: img-heartline 3s infinite linear;
   animation-play-state: running;
 }
 
@@ -326,15 +318,8 @@ img.img-DNA {
   display: flex;
   flex-direction: column;
 }
-/* transform: translate(-571px);
-}
-
-100% {
-    transform: translate(-217px); */
 
 .select-line {
-  /* background-color: #22212c; */
-
   position: absolute;
   height: 9vw;
   width: 268.583vw;
@@ -345,13 +330,11 @@ img.img-DNA {
   display: flex;
   box-sizing: border-box;
   width: 200vw;
-  /* justify-content: space-evenly; */
   animation: top-butterfly 5s infinite linear;
 }
 .bottom-butterfly {
   display: flex;
   box-sizing: border-box;
-  /* justify-content: space-evenly; */
   width: 200vw;
   animation: top-butterfly 5s infinite linear;
 }
@@ -380,10 +363,7 @@ img.img-DNA {
   margin-right: 1.389vw;
   box-sizing: border-box;
   border: black 0.25vw solid;
-  /* width: 17.066vw;
-  height: 17.066vw; */
-  /* width: 30.49vw;
-  height: 30.49vw; */
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -416,8 +396,7 @@ img.img-DNA {
   height: 100%;
 }
 
-/* репозиторий обновись пэж */
-
+/* бегущая строка текста select form  */
 .text-select-form {
   height: 9.85vw;
   width: 100%;
@@ -435,8 +414,101 @@ img.img-DNA {
 
   animation: infinite linear 8s text-line;
 }
+
+/* анимация кружочков в свг линии */
 .circle {
   fill: #ff00e5;
-  animation: circle 500ms infinite linear;
-  animation-delay: 1s;
+  animation: circle 300ms infinite steps(1);
+}
+
+/* .data-capture {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    height: 48.333vw;
+    padding: 1.389vw;
+    box-sizing: border-box;
+  }
+  
+  /* блок левой колонки и фон*/
+/* .left-column {
+    background-color: #22212c;
+    border: black 0.25vw solid;
+    background-image: url(../images/first-butterfly-with-skeleton.svg);
+    background-size: contain;
+    height: 45.556vw;
+    width: 45.556vw;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  } */
+
+.mind-exploading {
+  display: flex;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 48.333vw;
+  padding: 1.389vw;
+  margin: 1.389vw 0;
+  position: relative;
+}
+.chip-butterfly {
+  background-color: #22212c;
+  border: black 0.25vw solid;
+  /* background-image: url(../images/chip-butterfly.svg); */
+  background-size: contain;
+  height: 45.556vw;
+  width: 45.556vw;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+  left: 53vw;
+}
+.text-mind {
+  font-family: DigiGraphics;
+  font-size: 3.5vw;
+  color: #00ffe0;
+}
+.left-column-mind {
+  width: 51.523vw;
+  height: 34.556vw;
+  margin-bottom: 1.389vw;
+}
+.gadget {
+  /* background-image: url(../images/gadget.svg);
+  background-size: contain;
+  background-repeat: no-repeat; */
+  position: relative;
+  width: 51.523vw;
+  height: 34.556vw;
+}
+.gadget > p {
+  position: absolute;
+  left: 14.5vw;
+  top: 9vw;
+}
+.gadget > svg {
+  width: 52.523vw;
+  height: 34.556vw;
+}
+.circle-mind-1 {
+  animation: circle-mind-1 500ms infinite steps(1);
+}
+.circle-mind-2 {
+  animation: circle-mind-2 500ms infinite steps(1);
+}
+
+.circles-butt-1 {
+  animation: circle-mind-4 500ms infinite steps(1);
+  animation-delay: 200ms;
+}
+
+.circles-butt-12 {
+  animation: circle-mind-3 500ms infinite steps(1);
 }

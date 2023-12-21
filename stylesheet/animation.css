@@ -348,7 +348,7 @@ img.img-DNA:hover {
 }
 @keyframes circle {
   0% {
-    fill: #1c1b22;
+    fill: #ff00e5;
   }
   50% {
     fill: none;
@@ -380,5 +380,51 @@ img.img-DNA:hover {
   }
   100% {
     margin: 0vw;
+  }
+}
+@keyframes circle-mind-1 {
+  0% {
+    fill: #ff00e5;
+  }
+  50% {
+    fill: #00ffe0;
+  }
+  100% {
+    fill: #ff00e5;
+  }
+}
+@keyframes circle-mind-2 {
+  0% {
+    fill: #00ffe0;
+  }
+  50% {
+    fill: #ff00e5;
+  }
+  100% {
+    fill: #00ffe0;
+  }
+}
+@keyframes circle-mind-3 {
+  0% {
+    fill: none;
+  }
+  50% {
+    fill: #ff00e5;
+    stroke: #ff00e5;
+  }
+  100% {
+    fill: none;
+  }
+}
+@keyframes circle-mind-4 {
+  0% {
+    fill: none;
+  }
+  50% {
+    fill: #ff00e5;
+    /* stroke: #ff00e5; */
+  }
+  100% {
+    fill: none;
   }
 }
