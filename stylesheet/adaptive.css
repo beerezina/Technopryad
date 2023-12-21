@@ -50,7 +50,7 @@
   }
   /* второй экран  */
   .select-form {
-    height: 125.781vw;
+    height: 116.781vw;
   }
   .top-butterfly,
   .bottom-butterfly {
@@ -92,6 +92,61 @@
   .skelet-9-1,
   .skelet-10-1 {
     width: 46.595vw;
+  }
+  /* третий экран */
+  .left-column-mind {
+    opacity: 0%;
+  }
+  .left-loading-screen {
+    height: auto;
+    width: auto;
+  }
+  .left-column-mind {
+    height: auto;
+  }
+  .mind-exploading {
+    flex-direction: column;
+    padding: 2.604vw;
+    height: 122.333vw;
+  }
+
+  .chip-butterfly {
+    height: 94.792vw;
+    width: 94.792vw;
+    left: 2.604vw;
+    top: 24vw;
+  }
+
+  .bottom-loading {
+    height: 20vw;
+    width: 100%;
+  }
+  .blocks {
+    height: 15.006vw;
+  }
+  .blocks-in-box {
+    height: 100%;
+  }
+  .block-1,
+  .block-2,
+  .block-3,
+  .block-3,
+  .block-4,
+  .block-5,
+  .block-6,
+  .block-7,
+  .block-8,
+  .block-9,
+  .block-10 {
+    width: 8.5vw;
+    height: 8.5vw;
+  }
+  .box-text-loading {
+    font-size: 5vw;
+    height: 4.994vw;
+  }
+  .loading-text {
+    margin-left: 64vw;
   }
 }
 
@@ -197,5 +252,63 @@
   .skelet-10-1 {
     border: 0.465vw solid black;
     width: 57.5vw;
+  }
+  /* третий экран */
+  .select-form {
+    height: 119.781vw;
+  }
+  .left-column-mind {
+    opacity: 0%;
+  }
+  .left-loading-screen {
+    height: auto;
+    width: auto;
+  }
+  .left-column-mind {
+    height: auto;
+  }
+  .mind-exploading {
+    flex-direction: column;
+    padding: 2.604vw;
+    height: 122.333vw;
+  }
+
+  .chip-butterfly {
+    height: 94.792vw;
+    width: 94.792vw;
+    left: 2.604vw;
+    top: 24vw;
+  }
+
+  .bottom-loading {
+    height: 20vw;
+    width: 100%;
+  }
+  .blocks {
+    height: 15.006vw;
+  }
+  .blocks-in-box {
+    height: 100%;
+  }
+  .block-1,
+  .block-2,
+  .block-3,
+  .block-3,
+  .block-4,
+  .block-5,
+  .block-6,
+  .block-7,
+  .block-8,
+  .block-9,
+  .block-10 {
+    width: 8.5vw;
+    height: 8.5vw;
+  }
+  .box-text-loading {
+    font-size: 5vw;
+    height: 4.994vw;
+  }
+  .loading-text {
+    margin-left: 64vw;
   }
 }

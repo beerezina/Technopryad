@@ -442,3 +442,69 @@ img.img-DNA:hover {
 .left-column-mind:hover {
   animation-play-state: paused;
 }
+
+@keyframes text-print {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+    color: #00ffe0;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes text-print-100 {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+    color: #00ffe0;
+  }
+}
+
+@keyframes first-dot {
+  0% {
+    opacity: 100%;
+    color: #00ffe0;
+  }
+  60% {
+    opacity: 100%;
+    color: #00ffe0;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes second-dot {
+  0% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 100%;
+    color: #00ffe0;
+  }
+
+  80% {
+    opacity: 100%;
+    color: #00ffe0;
+  }
+}
+
+@keyframes third-dot {
+  0% {
+    opacity: 0%;
+  }
+  60% {
+    opacity: 100%;
+    color: #00ffe0;
+  }
+  90% {
+    opacity: 100%;
+    color: #00ffe0;
+  }
+}
