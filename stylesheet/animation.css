@@ -428,3 +428,17 @@ img.img-DNA:hover {
     fill: none;
   }
 }
+@keyframes left-column-mind {
+  0% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 10vw;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+.left-column-mind:hover {
+  animation-play-state: paused;
+}

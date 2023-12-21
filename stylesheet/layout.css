@@ -457,10 +457,14 @@ img.img-DNA {
   margin: 1.389vw 0;
   position: relative;
 }
+.top {
+  position: relative;
+}
 .chip-butterfly {
   background-color: #22212c;
   border: black 0.25vw solid;
-  /* background-image: url(../images/chip-butterfly.svg); */
+  background-image: url(../images/background.svg);
+
   background-size: contain;
   height: 45.556vw;
   width: 45.556vw;
@@ -469,6 +473,13 @@ img.img-DNA {
   overflow: hidden;
   position: absolute;
   left: 53vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chip-butterfly > svg {
+  height: 93%;
+  width: 93%;
 }
 .text-mind {
   font-family: DigiGraphics;
@@ -476,15 +487,21 @@ img.img-DNA {
   color: #00ffe0;
 }
 .left-column-mind {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   width: 51.523vw;
   height: 34.556vw;
-  margin-bottom: 1.389vw;
+
+  animation: 2s linear infinite left-column-mind;
+  animation-play-state: running;
 }
 .gadget {
   /* background-image: url(../images/gadget.svg);
   background-size: contain;
   background-repeat: no-repeat; */
-  position: relative;
+  position: absolute;
+
   width: 51.523vw;
   height: 34.556vw;
 }
@@ -497,6 +514,7 @@ img.img-DNA {
   width: 52.523vw;
   height: 34.556vw;
 }
+
 .circle-mind-1 {
   animation: circle-mind-1 500ms infinite steps(1);
 }
@@ -511,4 +529,55 @@ img.img-DNA {
 
 .circles-butt-12 {
   animation: circle-mind-3 500ms infinite steps(1);
+}
+
+.screw-1,
+.screw-2,
+.screw-3 {
+  position: absolute;
+}
+.screw-1 {
+  margin-left: 7.069vw;
+  margin-top: 8.833vw;
+  width: 10.995vw;
+  height: 10.995vw;
+}
+.screw-2 {
+  margin-left: 13.069vw;
+  margin-top: 8.833vw;
+  width: 5.673vw;
+  height: 5.673vw;
+}
+.screw-3 {
+  margin-left: 16vw;
+  margin-top: 8.833vw;
+  width: 7.755vw;
+  height: 7.755vw;
+}
+img.screw-1,
+img.screw-2,
+img.screw-3 {
+  animation-play-state: running;
+
+  animation: 3s linear 0s normal none infinite running cross-scanner;
+}
+.left-loading-screen {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 45.556vw;
+  justify-content: space-between;
+}
+.bottom-loading {
+  height: 10vw;
+  box-sizing: border-box;
+  width: 51.523vw;
+}
+.blocks {
+  height: 8.006vw;
+  border: #00ffe0 0.25vw solid;
+  box-sizing: border-box;
+}
+.text-loading {
+  height: 1.994vw;
 }
