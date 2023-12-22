@@ -621,3 +621,28 @@ img.img-DNA:hover {
 .in-heart:hover {
   fill: #ff00e5;
 }
+.in-temp:hover {
+  fill: #ff00e5;
+}
+.in-batt:hover {
+  fill: #ff00e5;
+}
+
+.small-blue-6:hover {
+  animation-play-state: paused;
+}
+.blue-w-pink-5:hover {
+  animation-play-state: paused;
+}
+.big-pink-4:hover {
+  animation-play-state: paused;
+}
+.small-blue-3:hover {
+  animation-play-state: paused;
+}
+.blue-w-pink-2:hover {
+  animation-play-state: paused;
+}
+.pink-1:hover {
+  animation-play-state: paused;
+}

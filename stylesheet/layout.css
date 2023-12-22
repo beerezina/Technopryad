@@ -999,24 +999,6 @@ img.screw-3 {
   animation-play-state: running;
 }
 
-.small-blue-6:hover {
-  animation-play-state: paused;
-}
-.blue-w-pink-5:hover {
-  animation-play-state: paused;
-}
-.big-pink-4:hover {
-  animation-play-state: paused;
-}
-.small-blue-3:hover {
-  animation-play-state: paused;
-}
-.blue-w-pink-2:hover {
-  animation-play-state: paused;
-}
-.pink-1:hover {
-  animation-play-state: paused;
-}
 .heart svg,
 .battery svg,
 .temperature svg {
@@ -1024,5 +1006,11 @@ img.screw-3 {
   height: 12.083vw;
 }
 .fill-heart {
+  animation: 500ms steps(1) infinite fill-heart;
+}
+.fill-batt {
+  animation: 500ms steps(1) infinite fill-heart;
+}
+.fill-temp {
   animation: 500ms steps(1) infinite fill-heart;
 }
