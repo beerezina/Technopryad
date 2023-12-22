@@ -897,6 +897,7 @@ img.screw-3 {
 .three-icons {
   display: flex;
   margin-top: 1.389vw;
+  width: 42.056vw;
 }
 .battery {
   margin-right: 1.389vw;
@@ -1004,15 +1005,27 @@ img.screw-3 {
 .heart svg,
 .battery svg,
 .temperature svg {
-  width: 13.194vw;
+  width: 12.6vw;
   height: 12.083vw;
 }
 .fill-heart {
+  stroke: #00ffe0;
   animation: 500ms steps(1) infinite fill-heart;
 }
 .fill-batt {
+  stroke: #00ffe0;
   animation: 500ms steps(1) infinite fill-heart;
 }
 .fill-temp {
+  stroke: #00ffe0;
   animation: 500ms steps(1) infinite fill-heart;
+}
+.in-heart {
+  fill: #413f53;
+}
+.in-temp {
+  fill: #413f53;
+}
+.in-batt {
+  fill: #413f53;
 }

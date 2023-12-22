@@ -148,8 +148,170 @@
   .loading-text {
     margin-left: 64vw;
   }
-}
+  .choose-a-pattern {
+    padding: 2.604vw;
+    height: 122.333vw;
+  }
+  .heart svg,
+  .battery svg,
+  .temperature svg {
+    width: 12.194vw;
+    height: 12.083vw;
+  }
+  .right-column-choose {
+    position: relative;
+    width: 24.2vw;
+  }
+  .motherboard {
+    position: absolute;
+    left: -70.6vw;
+    top: -29vw;
+    height: 22.444vw;
+    width: 95.17vw;
+  }
+  .motherboard svg {
+    width: 84.931vw;
+    height: 21.931vw;
+  }
+  .line-for-run {
+    width: 94.569vw;
+    height: 13.917vw;
+  }
+  .pink-1 {
+    width: 7.222vw;
+    height: 7.222vw;
+    left: 0;
+    bottom: 0;
+    animation-play-state: running;
 
+    position: absolute;
+    animation: 3s linear infinite circle_7;
+  }
+  .blue-w-pink-2 {
+    width: 4.528vw;
+    height: 4.528vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation-play-state: running;
+
+    animation: 3s linear infinite circle_8;
+    animation-delay: -500ms;
+  }
+
+  .small-blue-3 {
+    width: 2.972vw;
+    height: 2.972vw;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation-play-state: running;
+
+    animation: 3s linear infinite circle_9;
+    animation-delay: -1000ms;
+  }
+  .big-pink-4 {
+    width: 8.819vw;
+    height: 8.819vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation-play-state: running;
+
+    animation: 3s linear infinite circle_10;
+    animation-delay: -1500ms;
+  }
+  .blue-w-pink-5 {
+    width: 5.222vw;
+    height: 5.222vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation-play-state: running;
+
+    animation: 3s linear infinite circle_11;
+    animation-delay: -2000ms;
+  }
+  .small-blue-6 {
+    width: 1.972vw;
+    height: 1.972vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: 3s linear infinite circle_12;
+    animation-delay: -2500ms;
+    animation-play-state: running;
+  }
+
+  .running-circles {
+    position: absolute;
+    left: -70.6vw;
+    top: 67vw;
+    height: 23.444vw;
+    width: 95.17vw;
+  }
+  .three-icons {
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .battery {
+    margin-bottom: 2.604vw;
+  }
+  .heart {
+    margin-bottom: 2.604vw;
+  }
+  .battery,
+  .heart,
+  .temperature {
+    width: 23vw;
+    height: 19.25vw;
+    margin-right: 0;
+  }
+  .heart svg,
+  .battery svg,
+  .temperature svg {
+    width: 23vw;
+
+    height: 19.083vw;
+  }
+  .butterfly-final,
+  .p-confetti,
+  .p-diagonal-lines,
+  .p-diamonds,
+  .p-small-squares,
+  .p-small-circles {
+    position: absolute;
+    top: 10vw;
+    width: 60vw;
+    height: 53.242vw;
+  }
+  .confetti,
+  .diagonal-lines,
+  .diamonds,
+  .small-squares,
+  .small-circles {
+    height: 10.393vw;
+    width: 10.393vw;
+  }
+  .choose-a-pattern {
+    padding: 29vw 2.604vw;
+  }
+  .text-choose-a-pattern {
+    position: absolute;
+    left: -70.6vw;
+    top: -5vw;
+  }
+  .butterfly_choose {
+    height: 64.193vw;
+    width: 64.193vw;
+  }
+  .ruler {
+    height: 64.193vw;
+    width: 5.5vw;
+  }
+}
+/* телефон */
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
   .data-capture {
     flex-direction: column;
