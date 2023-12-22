@@ -364,8 +364,21 @@
   .skelet-7,
   .skelet-8,
   .skelet-9,
-  .skelet-10 {
+  .skelet-10,
+  .chip-butterfly,
+  .butterfly_choose,
+  .running-circles,
+  .battery,
+  .heart,
+  .temperature {
     border: 0.465vw solid black;
+  }
+  .confetti,
+  .diagonal-lines,
+  .diamonds,
+  .small-squares,
+  .small-circles {
+    border: 0.465vw #ff00e5 solid;
   }
 
   /* второй экран */
@@ -472,5 +485,242 @@
   }
   .loading-text {
     margin-left: 64vw;
+  }
+  /* третий экран */
+  .left-column-mind {
+    opacity: 0%;
+  }
+  .left-loading-screen {
+    height: auto;
+    width: auto;
+  }
+  .left-column-mind {
+    height: auto;
+  }
+  .mind-exploading {
+    flex-direction: column;
+    padding: 2.604vw;
+    height: 122.333vw;
+  }
+
+  .chip-butterfly {
+    height: 94.792vw;
+    width: 94.792vw;
+    left: 2.604vw;
+    top: 24vw;
+  }
+
+  .bottom-loading {
+    height: 20vw;
+    width: 100%;
+  }
+  .blocks {
+    height: 15.006vw;
+  }
+  .blocks-in-box {
+    height: 100%;
+  }
+  .block-1,
+  .block-2,
+  .block-3,
+  .block-3,
+  .block-4,
+  .block-5,
+  .block-6,
+  .block-7,
+  .block-8,
+  .block-9,
+  .block-10 {
+    width: 8.5vw;
+    height: 8.5vw;
+  }
+  .box-text-loading {
+    font-size: 5vw;
+    height: 4.994vw;
+  }
+  .loading-text {
+    margin-left: 64vw;
+  }
+  .choose-a-pattern {
+    padding: 2.604vw;
+    height: 122.333vw;
+  }
+  .heart svg,
+  .battery svg,
+  .temperature svg {
+    width: 12.194vw;
+    height: 12.083vw;
+  }
+  .right-column-choose {
+    position: relative;
+    width: 0vw;
+    padding-left: 0vw;
+  }
+  .motherboard {
+    position: absolute;
+    left: -94.6vw;
+    top: -29vw;
+    height: 22.444vw;
+    width: 93.6vw;
+  }
+  .motherboard svg {
+    width: 84.931vw;
+    height: 21.931vw;
+  }
+  .line-for-run {
+    width: 94.569vw;
+    height: 13.917vw;
+  }
+  .pink-1 {
+    width: 7.222vw;
+    height: 7.222vw;
+    left: 0;
+    bottom: 0;
+    animation-play-state: running;
+
+    position: absolute;
+    animation: 3s linear infinite circle_7;
+  }
+  .blue-w-pink-2 {
+    width: 4.528vw;
+    height: 4.528vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation-play-state: running;
+
+    animation: 3s linear infinite circle_8;
+    animation-delay: -500ms;
+  }
+
+  .small-blue-3 {
+    width: 2.972vw;
+    height: 2.972vw;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation-play-state: running;
+
+    animation: 3s linear infinite circle_9;
+    animation-delay: -1000ms;
+  }
+  .big-pink-4 {
+    width: 8.819vw;
+    height: 8.819vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation-play-state: running;
+
+    animation: 3s linear infinite circle_10;
+    animation-delay: -1500ms;
+  }
+  .blue-w-pink-5 {
+    width: 5.222vw;
+    height: 5.222vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation-play-state: running;
+
+    animation: 3s linear infinite circle_11;
+    animation-delay: -2000ms;
+  }
+  .small-blue-6 {
+    width: 1.972vw;
+    height: 1.972vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: 3s linear infinite circle_12;
+    animation-delay: -2500ms;
+    animation-play-state: running;
+  }
+
+  .running-circles {
+    position: absolute;
+    left: -94.6vw;
+    top: 129vw;
+    height: 23.444vw;
+    width: 93.6vw;
+  }
+  .three-icons {
+    position: absolute;
+    left: -94.8vw;
+    top: 96vw;
+    width: 93.5vw;
+  }
+  .battery {
+    margin-bottom: 2.604vw;
+    border-right: 0;
+  }
+  .heart {
+    margin-bottom: 2.604vw;
+    border-right: 0;
+  }
+  .battery,
+  .heart,
+  .temperature {
+    width: 31vw;
+    height: 27.25vw;
+    margin-right: 0;
+  }
+  .heart svg,
+  .battery svg,
+  .temperature svg {
+    width: 30vw;
+    height: 27.083vw;
+  }
+  .confetti,
+  .diagonal-lines,
+  .diamonds,
+  .small-squares,
+  .small-circles {
+    height: 16vw;
+    width: 16vw;
+  }
+  .butterfly-final,
+  .p-confetti,
+  .p-diagonal-lines,
+  .p-diamonds,
+  .p-small-squares,
+  .p-small-circles {
+    position: absolute;
+    top: 13vw;
+    width: 93vw;
+    height: 84.242vw;
+  }
+  .confetti,
+  .diagonal-lines,
+  .diamonds,
+  .small-squares,
+  .small-circles {
+    height: 17vw;
+    width: 17vw;
+    border-radius: 4vw;
+  }
+  .choose-a-pattern {
+    padding: 29vw 2.604vw;
+    height: 185.333vw;
+  }
+  .text-choose-a-pattern {
+    position: absolute;
+    left: -70.6vw;
+    top: -5vw;
+  }
+  .butterfly_choose {
+    height: 94.792vw;
+    width: 94.792vw;
+  }
+  .ruler {
+    height: 0;
+    width: 0;
+  }
+  .patterns-squares {
+    width: 94vw;
+  }
+  .motherboard {
+    border: 0;
   }
 }
