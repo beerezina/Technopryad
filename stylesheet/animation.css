@@ -508,3 +508,116 @@ img.img-DNA:hover {
     color: #00ffe0;
   }
 }
+.confetti:hover ~ .p-confetti {
+  opacity: 100%;
+}
+.diagonal-lines:hover ~ .p-diagonal-lines {
+  opacity: 100%;
+}
+.diamonds:hover ~ .p-diamonds {
+  opacity: 100%;
+}
+.small-squares:hover ~ .p-small-squares {
+  opacity: 100%;
+}
+.small-circles:hover ~ .p-small-circles {
+  opacity: 100%;
+}
+
+@keyframes circle_1 {
+  0% {
+    transform: translate(-1vw);
+  }
+  20% {
+    transform: translate(6.5vw, -6vw);
+  }
+  80% {
+    transform: translate(33vw, -6vw);
+  }
+  100% {
+    transform: translate(40vw, 0vw);
+  }
+}
+
+@keyframes circle_2 {
+  0% {
+    transform: translate(-0.5vw);
+  }
+  20% {
+    transform: translate(7vw, -6.2vw);
+  }
+  80% {
+    transform: translate(33.5vw, -6.2vw);
+  }
+  100% {
+    transform: translate(45vw, 4vw);
+  }
+}
+@keyframes circle_3 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(7vw, -6.5vw);
+  }
+  80% {
+    transform: translate(33.5vw, -6.5vw);
+  }
+  100% {
+    transform: translate(43vw, 1.5vw);
+  }
+}
+@keyframes circle_4 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(5.5vw, -5vw);
+  }
+  80% {
+    transform: translate(32vw, -5vw);
+  }
+  100% {
+    transform: translate(38vw, 0vw);
+  }
+}
+@keyframes circle_5 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(5.5vw, -5.5vw);
+  }
+  80% {
+    transform: translate(33vw, -5.5vw);
+  }
+  100% {
+    transform: translate(40vw, 0vw);
+  }
+}
+@keyframes circle_6 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(5.5vw, -5.5vw);
+  }
+  80% {
+    transform: translate(33vw, -5.5vw);
+  }
+  100% {
+    transform: translate(40vw, 0vw);
+  }
+}
+@keyframes fill-heart {
+  50% {
+    /* fill: #ff00e5; */
+    fill: #00ffe0;
+  }
+  /* 100% {
+    fill: #413f53;
+  } */
+}
+.in-heart:hover {
+  fill: #ff00e5;
+}

@@ -752,3 +752,277 @@ img.screw-3 {
   opacity: 0%;
   animation: third-dot steps(1) 3s infinite;
 }
+/* четвертый экран  */
+
+.choose-a-pattern {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  height: 51.333vw;
+  padding: 1.389vw;
+  box-sizing: border-box;
+}
+.butterfly_choose {
+  background-color: #22212c;
+  border: black 0.25vw solid;
+  background-image: url(../images/background.svg);
+  background-size: contain;
+  height: 48.555vw;
+  width: 48.503vw;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.ruler {
+  background-image: url(../images/ruler.svg);
+  height: 48.555vw;
+  width: 4.5vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 1vw;
+}
+.patterns-squares {
+  display: flex;
+  position: relative;
+}
+.confetti,
+.diagonal-lines,
+.diamonds,
+.small-squares,
+.small-circles {
+  height: 7.393vw;
+  width: 7.393vw;
+  border-radius: 1.461vw;
+  margin: 0.972vw 0.572vw;
+  background-color: #22212c;
+  border: #ff00e5 0.25vw solid;
+}
+
+.confetti {
+  background-image: url(../images/confetti.svg);
+  background-size: contain;
+
+  background-repeat: no-repeat;
+}
+.diagonal-lines {
+  background-image: url(../images/diagonal-lines.svg);
+  background-size: contain;
+
+  background-repeat: no-repeat;
+}
+.diamonds {
+  background-image: url(../images/diamonds.svg);
+  background-size: contain;
+
+  background-repeat: no-repeat;
+}
+.small-squares {
+  background-image: url(../images/small-squares.svg);
+  background-size: contain;
+
+  background-repeat: no-repeat;
+}
+.small-circles {
+  background-image: url(../images/small-circles.svg);
+  background-size: contain;
+
+  background-repeat: no-repeat;
+}
+.butterfly-final,
+.p-confetti,
+.p-diagonal-lines,
+.p-diamonds,
+.p-small-squares,
+.p-small-circles {
+  position: absolute;
+  top: 10vw;
+  width: 45vw;
+  height: 36.242vw;
+}
+.p-confetti,
+.p-diagonal-lines,
+.p-diamonds,
+.p-small-squares,
+.p-small-circles {
+  opacity: 0%;
+}
+.right-column-choose {
+  padding-left: 1.144vw;
+  display: flex;
+  box-sizing: border-box;
+  width: 43.2vw;
+  flex-direction: column;
+}
+/* текстовый блок data capture */
+.text-choose-a-pattern {
+  font-family: DigiGraphics;
+  font-size: 3.96vw;
+  color: #00ffe0;
+  margin-bottom: 1.389vw;
+}
+.motherboard {
+  border: black 0.25vw solid;
+  height: 12.444vw;
+  width: 42.056vw;
+  margin-bottom: 1.389vw;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.running-circles {
+  border: black 0.25vw solid;
+  height: 12.444vw;
+  width: 42.056vw;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+.battery,
+.heart,
+.temperature {
+  width: 13.09vw;
+  height: 11.444vw;
+  border: black 0.25vw solid;
+}
+.three-icons {
+  display: flex;
+  margin-top: 1.389vw;
+}
+.battery {
+  margin-right: 1.389vw;
+}
+.heart {
+  margin-right: 1.389vw;
+}
+
+.flashing-1 {
+  animation: circle-mind-1 500ms infinite steps(1);
+}
+.flashing-2 {
+  animation: circle-mind-1 500ms infinite steps(1);
+  animation-delay: 200ms;
+}
+.flashing-hover:hover {
+  fill: #ff00e5;
+  stroke: #00ffe0;
+}
+.motherboard svg {
+  width: 39.931vw;
+  height: 9.931vw;
+}
+.final-run-circles {
+  position: absolute;
+  left: 0;
+}
+.line-for-run {
+  width: 41.569vw;
+  height: 7.917vw;
+}
+.pink-1 {
+  /* opacity: 0%; */
+
+  width: 2.222vw;
+  height: 2.222vw;
+  left: 0;
+  bottom: 0;
+  animation-play-state: running;
+
+  position: absolute;
+  animation: 3s linear infinite circle_1;
+}
+.blue-w-pink-2 {
+  /* opacity: 0%; */
+  width: 1.528vw;
+  height: 1.528vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  animation-play-state: running;
+
+  animation: 3s linear infinite circle_2;
+  animation-delay: -500ms;
+}
+
+.small-blue-3 {
+  /* opacity: 0%; */
+  width: 0.972vw;
+  height: 0.972vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  animation-play-state: running;
+
+  animation: 3s linear infinite circle_3;
+  animation-delay: -1000ms;
+}
+.big-pink-4 {
+  /* opacity: 0%; */
+  width: 3.819vw;
+  height: 3.819vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  animation-play-state: running;
+
+  animation: 3s linear infinite circle_4;
+  animation-delay: -1500ms;
+}
+.blue-w-pink-5 {
+  /* opacity: 0%; */
+  width: 2.222vw;
+  height: 2.222vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  animation-play-state: running;
+
+  animation: 3s linear infinite circle_1;
+  animation-delay: -2000ms;
+}
+.small-blue-6 {
+  /* opacity: 0%; */
+  width: 0.972vw;
+  height: 0.972vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  animation: 3s linear infinite circle_3;
+  animation-delay: -2500ms;
+  animation-play-state: running;
+}
+
+.small-blue-6:hover {
+  animation-play-state: paused;
+}
+.blue-w-pink-5:hover {
+  animation-play-state: paused;
+}
+.big-pink-4:hover {
+  animation-play-state: paused;
+}
+.small-blue-3:hover {
+  animation-play-state: paused;
+}
+.blue-w-pink-2:hover {
+  animation-play-state: paused;
+}
+.pink-1:hover {
+  animation-play-state: paused;
+}
+.heart svg,
+.battery svg,
+.temperature svg {
+  width: 13.194vw;
+  height: 12.083vw;
+}
+.fill-heart {
+  animation: 500ms steps(1) infinite fill-heart;
+}
