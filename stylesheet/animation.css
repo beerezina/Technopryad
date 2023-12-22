@@ -777,3 +777,19 @@ img.img-DNA:hover {
     transform: translate(90vw, 0vw);
   }
 }
+
+@keyframes arrow {
+  0% {
+    transform: translateY(0vw);
+  }
+  50% {
+    transform: translateY(47vw);
+  }
+  100% {
+    transform: translateY(0vw);
+  }
+}
+
+.arrow:hover {
+  animation-play-state: paused;
+}

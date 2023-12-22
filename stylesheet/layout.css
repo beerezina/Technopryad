@@ -786,6 +786,15 @@ img.screw-3 {
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: 1vw;
+  display: flex;
+  justify-content: flex-start;
+}
+.arrow {
+  width: 100%;
+  width: 6vw;
+  animation: 2s linear infinite arrow;
+  animation-play-state: running;
+  width: 94.5%;
 }
 .patterns-squares {
   display: flex;
