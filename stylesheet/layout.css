@@ -591,67 +591,67 @@ img.screw-3 {
 .load-0 {
   opacity: 0%;
   position: absolute;
-  animation: text-print steps(1) 1s forwards;
+  animation: text-print steps(1) 500ms forwards;
 }
 .load-10 {
   opacity: 0%;
   position: absolute;
-  animation: text-print steps(1) 1s forwards;
+  animation: text-print steps(1) 500ms forwards;
   animation-delay: 1s;
 }
 
 .load-20 {
   opacity: 0%;
   position: absolute;
-  animation: text-print steps(1) 1s forwards;
+  animation: text-print steps(1) 500ms forwards;
   animation-delay: 2s;
 }
 .load-30 {
   opacity: 0%;
   position: absolute;
-  animation: text-print steps(1) 1s forwards;
+  animation: text-print steps(1) 500ms forwards;
   animation-delay: 3s;
 }
 .load-40 {
   opacity: 0%;
   position: absolute;
-  animation: text-print steps(1) 1s forwards;
+  animation: text-print steps(1) 500ms forwards;
   animation-delay: 4s;
 }
 .load-50 {
   opacity: 0%;
   position: absolute;
-  animation: text-print steps(1) 1s forwards;
+  animation: text-print steps(1) 500ms forwards;
   animation-delay: 5s;
 }
 .load-60 {
   opacity: 0%;
   position: absolute;
-  animation: text-print steps(1) 1s forwards;
+  animation: text-print steps(1) 500ms forwards;
   animation-delay: 6s;
 }
 .load-70 {
   opacity: 0%;
   position: absolute;
-  animation: text-print steps(1) 1s forwards;
+  animation: text-print steps(1) 500ms forwards;
   animation-delay: 7s;
 }
 .load-80 {
   opacity: 0%;
   position: absolute;
-  animation: text-print steps(1) 1s forwards;
+  animation: text-print steps(1) 500ms forwards;
   animation-delay: 8s;
 }
 .load-90 {
   opacity: 0%;
   position: absolute;
-  animation: text-print steps(1) 1s forwards;
+  animation: text-print steps(1) 500ms forwards;
   animation-delay: 9s;
 }
 .load-100 {
   opacity: 0%;
   position: absolute;
-  animation: text-print-100 steps(1) 1s infinite forwards;
+  animation: text-print-100 steps(1) 500ms infinite forwards;
 
   animation-delay: 10s;
 }
@@ -687,70 +687,72 @@ img.screw-3 {
   height: 3.5vw;
   margin: 0 0.501vw;
   border-radius: 0.333vw;
+  box-sizing: border-box;
+  border: #ff00e5 0.25vw solid;
   background-color: #ff00e5;
 }
 
 .block-1 {
   opacity: 0%;
-  animation: text-print-100 steps(1) 1s infinite forwards;
+  animation: text-print-100 steps(1) 500ms infinite forwards;
   animation-delay: 1s;
 }
 .block-2 {
   opacity: 0%;
-  animation: text-print-100 steps(1) 1s infinite forwards;
+  animation: text-print-100 steps(1) 500ms infinite forwards;
   animation-delay: 2s;
 }
 .block-3 {
   opacity: 0%;
-  animation: text-print-100 steps(1) 1s infinite forwards;
+  animation: text-print-100 steps(1) 500ms infinite forwards;
   animation-delay: 3s;
 }
 .block-4 {
   opacity: 0%;
-  animation: text-print-100 steps(1) 1s infinite forwards;
+  animation: text-print-100 steps(1) 500ms infinite forwards;
   animation-delay: 4s;
 }
 .block-5 {
   opacity: 0%;
-  animation: text-print-100 steps(1) 1s infinite forwards;
+  animation: text-print-100 steps(1) 500ms infinite forwards;
   animation-delay: 5s;
 }
 .block-6 {
   opacity: 0%;
-  animation: text-print-100 steps(1) 1s infinite forwards;
+  animation: text-print-100 steps(1) 500ms infinite forwards;
   animation-delay: 6s;
 }
 .block-7 {
   opacity: 0%;
-  animation: text-print-100 steps(1) 1s infinite forwards;
+  animation: text-print-100 steps(1) 500ms infinite forwards;
   animation-delay: 7s;
 }
 .block-8 {
   opacity: 0%;
-  animation: text-print-100 steps(1) 1s infinite forwards;
+  animation: text-print-100 steps(1) 500ms infinite forwards;
   animation-delay: 8s;
 }
 .block-9 {
   opacity: 0%;
-  animation: text-print-100 steps(1) 1s infinite forwards;
+  animation: text-print-100 steps(1) 500ms infinite forwards;
   animation-delay: 9s;
 }
 .block-10 {
   opacity: 0%;
-  animation: text-print-100 steps(1) 1s infinite forwards;
+  animation: text-print-100 steps(1) 500ms infinite forwards;
   animation-delay: 10s;
 }
 .first-dot {
   opacity: 0%;
-  animation: first-dot steps(1) 3s infinite;
+  animation: first-dot steps(1) 500ms infinite;
 }
 .second-dot {
   opacity: 0%;
-  animation: second-dot steps(1) 3s infinite;
+  animation: second-dot steps(1) 500ms infinite;
 }
 .third-dot {
   opacity: 0%;
-  animation: third-dot steps(1) 3s infinite;
+  animation: third-dot steps(1) 500ms infinite;
 }
 /* четвертый экран  */
 
