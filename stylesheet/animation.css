@@ -18,8 +18,20 @@
 }
 /* анимация бегущей линии ДНК */
 @keyframes img-DNA {
+  0% {
+    transform: translateX(-73.958vw);
+  }
   100% {
-    transform: translate(-50%);
+    transform: translate(-24.931vw);
+  }
+}
+/* для мобильной адаптивки */
+@keyframes img-DNA-2 {
+  0% {
+    transform: translateX(-108.696vw);
+  }
+  100% {
+    transform: translate(-32.609vw);
   }
 }
 /* остановка при наведении сканнера */
@@ -320,10 +332,10 @@ img.img-DNA:hover {
 
 @keyframes select-line {
   0% {
-    transform: translate(-146vw);
+    transform: translate(-205vw);
   }
   100% {
-    transform: translate(-21vw);
+    transform: translate(-96.667vw);
   }
 }
 .select-line:hover {
@@ -340,10 +352,10 @@ img.img-DNA:hover {
 }
 @keyframes top-butterfly {
   0% {
-    margin-left: -100vw;
+    transform: translateX(-99.514vw);
   }
   100% {
-    margin: 0vw;
+    transform: translateX(0);
   }
 }
 @keyframes circle {
@@ -359,27 +371,53 @@ img.img-DNA:hover {
 }
 @keyframes text-line-2 {
   0% {
+    transform: translate(-677.865vw);
+  }
+  100% {
+    transform: translate(-401.563vw);
+  }
+}
+
+@keyframes text-line-3 {
+  0% {
+    transform: translate(-427.995vw);
+  }
+  100% {
+    transform: translate(-236.849vw);
+  }
+}
+@keyframes text-line-4 {
+  0% {
+    transform: translate(-585.024vw);
+  }
+  100% {
+    transform: translate(-341.787vw);
+  }
+}
+
+@keyframes text-line-7 {
+  0% {
     transform: translate(-367vw);
   }
   100% {
     transform: translate(0vw);
   }
 }
-
-@keyframes text-line-3 {
-  0% {
-    transform: translate(-176vw);
-  }
-  100% {
-    transform: translate(0px);
-  }
-}
 @keyframes top-butterfly-2 {
   0% {
-    margin-left: -242vw;
+    transform: translateX(-384.188vw);
   }
   100% {
-    margin: 0vw;
+    transform: translateX(-142.094vw);
+  }
+}
+
+@keyframes top-butterfly-3 {
+  0% {
+    transform: translateX(-419.324vw);
+  }
+  100% {
+    transform: translateX(-159.662vw);
   }
 }
 @keyframes circle-mind-1 {
@@ -460,7 +498,7 @@ img.img-DNA:hover {
   0% {
     opacity: 0%;
   }
-  50% {
+  100% {
     opacity: 100%;
     color: #00ffe0;
   }
@@ -792,4 +830,14 @@ img.img-DNA:hover {
 
 .arrow:hover {
   animation-play-state: paused;
+}
+
+@keyframes success {
+  0% {
+    background-position: -82vw;
+  }
+
+  100% {
+    background-position: -22.5vw;
+  }
 }

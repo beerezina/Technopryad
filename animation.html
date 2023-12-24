@@ -5,43 +5,760 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Бегущие строки</title>
     <style>
-      * {
-        box-sizing: border-box;
+      body {
+        display: 0 auto;
+        width: 100vw;
+        height: 100vw;
+        border: 2px black solid;
       }
-      .container {
-        width: 300px;
-        height: 50px;
-        display: block;
-        background-color: gold;
-        position: relative;
-        padding: 15px 0;
+      .circle {
+        fill: #ff00e5;
+        animation: circle 300ms infinite steps(1);
       }
-
-      .row {
-        width: 1970px;
-        background-color: pink;
-        height: 20px;
-        position: absolute;
-        animation: row 10s line;
+      .select-line {
+        width: 305.208vw;
+        height: 7.847vw;
+        animation: 3s linear infinite select-line;
       }
-      @keyframes row {
+      /* @keyframes circle {
         0% {
-            right: -1970px;
+          fill: #ff00e5;
+        }
+        50% {
+          fill: none;
         }
         100% {
-            right; 100%
+          fill: #ff00e5;
+        }
+      } */
+      @keyframes select-line {
+        0% {
+          transform: translate(-205vw);
+        }
+        100% {
+          transform: translate(-96.667vw);
         }
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        Школа дизайна — подразделение одного из ведущих российских университетов
-        — Высшей школы экономики, входящей в список 40 лучших молодых
-        университетов мира и в топ-100 мировых вузов направления Arts &
-        Humanities по версии престижного международного рейтинга QS-2022.
-      </div>
-    </div>
+    <svg
+      class="select-line"
+      width="305.208vw"
+      height="7.847vw"
+      viewBox="0 0 4395 113"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2052.95 84C2055.25 84 2057.49 84.6052 2059.29 85.716L2072.54 93.9031L2085.79 102.09C2087.59 103.201 2089.82 103.806 2092.13 103.806L2271.13 103.806M1793.2 104C1795.5 104 1797.73 103.395 1799.53 102.284L1826.03 85.9098C1827.83 84.7989 1830.07 84.1937 1832.37 84.1937L2002.13 84.1937M1305.96 85.9097C1307.76 84.7989 1310 84.1937 1312.3 84.1937L1533.16 84.1937C1535.46 84.1937 1537.7 84.7989 1539.5 85.9097L1566 102.284C1567.8 103.395 1570.03 104 1572.33 104L1711.63 104M1279.46 102.284C1277.66 103.395 1275.43 104 1273.13 104M2833.34 104H2651.63M2606.14 102.284L2579.64 85.9097C2577.84 84.7989 2575.6 84.1937 2573.3 84.1937L2487.63 84.1937M2313.27 104C2315.57 104 2317.8 103.395 2319.6 102.284L2346.1 85.9097C2347.9 84.7989 2350.14 84.1937 2352.44 84.1937L2443.63 84.1937"
+        stroke="#FF00E5"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M2307.99 7.19374H2128.63H2119.13M2047.95 27C2050.25 27 2052.49 26.3948 2054.29 25.284L2072.13 14.2627M2048.23 26.8062L2033.13 26.8063M1567.33 7.00004C1565.03 7.00004 1562.8 7.60523 1561 8.71608L1534.5 25.0903C1532.7 26.2011 1530.46 26.8063 1528.16 26.8063L1307.3 26.8063C1305 26.8063 1302.76 26.2011 1300.96 25.0903L1274.46 8.71605C1272.66 7.6052 1270.43 7.00001 1268.13 7.00002M2828.34 7L2774.98 7.00001M2308.27 7.00002C2310.57 7.00001 2312.8 7.6052 2314.6 8.71605L2341.1 25.0903C2342.9 26.2011 2345.14 26.8063 2347.44 26.8063L2357.13 26.8063M2411.13 26.8063L2568.3 26.8063C2570.6 26.8063 2572.84 26.2011 2574.64 25.0903L2601.14 8.71608C2602.94 7.60523 2605.17 7.00004 2607.47 7.00004L2721.63 7.00002M1836.13 26.8063L1827.37 26.8063C1825.07 26.8063 1822.83 26.2011 1821.03 25.0902L1794.53 8.71603C1792.73 7.60519 1790.5 7 1788.2 7L1642.13 7.00002M1862.63 26.8063L2005.63 26.8063"
+        stroke="#FF00E5"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <circle
+        cx="5.5"
+        cy="5.5"
+        r="5.5"
+        transform="matrix(-1 0 0 1 2092.13 3)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 2014.13 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 2022.13 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 2030.13 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 2038.13 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 2046.13 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="5.5"
+        cy="5.5"
+        r="5.5"
+        transform="matrix(-1 0 0 1 2111.13 1)"
+        fill="#00FFE0"
+      />
+      <circle
+        class="circle"
+        cx="9.41571"
+        cy="9.41571"
+        r="8.41571"
+        transform="matrix(-1 0 0 1 2381.96 18)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9.41571"
+        cy="9.41571"
+        r="8.41571"
+        transform="matrix(-1 0 0 1 2405.96 18)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9"
+        cy="9"
+        r="8"
+        transform="matrix(-1 0 0 1 2474.96 75)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9"
+        cy="9"
+        r="8"
+        transform="matrix(-1 0 0 1 2861 86)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9"
+        cy="9"
+        r="8"
+        transform="matrix(-1 0 0 1 1737.13 95)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9"
+        cy="9"
+        r="8"
+        transform="matrix(-1 0 0 1 1762.13 95)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9"
+        cy="9"
+        r="8"
+        transform="matrix(-1 0 0 1 1787.13 95)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <rect
+        x="1842.13"
+        y="20"
+        width="14"
+        height="14"
+        rx="1.94136"
+        fill="#00FFE0"
+      />
+      <rect
+        x="2012.13"
+        y="20"
+        width="14"
+        height="14"
+        rx="1.94136"
+        fill="#00FFE0"
+      />
+      <rect
+        x="2280.13"
+        y="100"
+        width="8"
+        height="8"
+        rx="1.94136"
+        fill="#00FFE0"
+      />
+      <rect
+        x="2296.13"
+        y="100"
+        width="8"
+        height="8"
+        rx="1.94136"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 2616.13 101)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 2624.13 101)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 2632.13 101)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 2640.13 101)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 2648.13 101)"
+        fill="#00FFE0"
+      />
+      <rect x="2732.13" width="14" height="14" rx="1.94136" fill="#00FFE0" />
+      <rect x="2753.13" width="14" height="14" rx="1.94136" fill="#00FFE0" />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 1611.13 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 1603.13 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 1595.13 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 1587.13 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 1579.13 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 1619.13 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 1627.13 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 1635.13 4)"
+        fill="#00FFE0"
+      />
+      <path
+        d="M3612.83 84C3615.13 84 3617.36 84.6052 3619.16 85.716L3632.41 93.9031L3645.66 102.09C3647.46 103.201 3649.7 103.806 3652 103.806L3831 103.806M3353.07 104C3355.37 104 3357.61 103.395 3359.4 102.284L3385.91 85.9098C3387.71 84.7989 3389.94 84.1937 3392.24 84.1937L3562 84.1937M2865.84 85.9097C2867.64 84.7989 2869.87 84.1937 2872.17 84.1937L3093.03 84.1937C3095.34 84.1937 3097.57 84.7989 3099.37 85.9097L3125.87 102.284C3127.67 103.395 3129.91 104 3132.21 104L3271.5 104M2839.33 102.284C2837.54 103.395 2835.3 104 2833 104M4393.21 104H4211.5M4166.01 102.284L4139.51 85.9097C4137.71 84.7989 4135.48 84.1937 4133.17 84.1937L4047.5 84.1937M3873.14 104C3875.44 104 3877.68 103.395 3879.47 102.284L3905.98 85.9097C3907.78 84.7989 3910.01 84.1937 3912.31 84.1937L4003.5 84.1937"
+        stroke="#FF00E5"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M3867.86 7.19374H3688.5H3679M3607.83 27C3610.13 27 3612.36 26.3948 3614.16 25.284L3632 14.2627M3608.1 26.8062L3593 26.8063M3127.21 7.00004C3124.91 7.00004 3122.67 7.60523 3120.87 8.71608L3094.37 25.0903C3092.57 26.2011 3090.34 26.8063 3088.03 26.8063L2867.17 26.8063C2864.87 26.8063 2862.64 26.2011 2860.84 25.0903L2834.33 8.71605C2832.54 7.6052 2830.3 7.00001 2828 7.00002M4388.21 7L4334.85 7.00001M3868.14 7.00002C3870.44 7.00001 3872.68 7.6052 3874.47 8.71605L3900.98 25.0903C3902.78 26.2011 3905.01 26.8063 3907.31 26.8063L3917 26.8063M3971 26.8063L4128.17 26.8063C4130.48 26.8063 4132.71 26.2011 4134.51 25.0903L4161.01 8.71608C4162.81 7.60523 4165.05 7.00004 4167.35 7.00004L4281.5 7.00002M3396 26.8063L3387.24 26.8063C3384.94 26.8063 3382.71 26.2011 3380.91 25.0902L3354.4 8.71603C3352.61 7.60519 3350.37 7 3348.07 7L3202 7.00002M3422.5 26.8063L3565.5 26.8063"
+        stroke="#FF00E5"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <circle
+        cx="5.5"
+        cy="5.5"
+        r="5.5"
+        transform="matrix(-1 0 0 1 3652 3)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 3574 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 3582 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 3590 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 3598 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 3606 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="5.5"
+        cy="5.5"
+        r="5.5"
+        transform="matrix(-1 0 0 1 3671 1)"
+        fill="#00FFE0"
+      />
+      <circle
+        class="circle"
+        cx="9.41571"
+        cy="9.41571"
+        r="8.41571"
+        transform="matrix(-1 0 0 1 3941.83 18)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9.41571"
+        cy="9.41571"
+        r="8.41571"
+        transform="matrix(-1 0 0 1 3965.83 18)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9"
+        cy="9"
+        r="8"
+        transform="matrix(-1 0 0 1 4034.83 75)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9"
+        cy="9"
+        r="8"
+        transform="matrix(-1 0 0 1 3297 95)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9"
+        cy="9"
+        r="8"
+        transform="matrix(-1 0 0 1 3322 95)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9"
+        cy="9"
+        r="8"
+        transform="matrix(-1 0 0 1 3347 95)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <rect
+        x="3402"
+        y="20"
+        width="14"
+        height="14"
+        rx="1.94136"
+        fill="#00FFE0"
+      />
+      <rect
+        x="3572"
+        y="20"
+        width="14"
+        height="14"
+        rx="1.94136"
+        fill="#00FFE0"
+      />
+      <rect x="3840" y="100" width="8" height="8" rx="1.94136" fill="#00FFE0" />
+      <rect x="3856" y="100" width="8" height="8" rx="1.94136" fill="#00FFE0" />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 4176 101)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 4184 101)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 4192 101)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 4200 101)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 4208 101)"
+        fill="#00FFE0"
+      />
+      <rect x="4292" width="14" height="14" rx="1.94136" fill="#00FFE0" />
+      <rect x="4313" width="14" height="14" rx="1.94136" fill="#00FFE0" />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 3171 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 3163 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 3155 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 3147 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 3139 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 3179 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 3187 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 3195 4)"
+        fill="#00FFE0"
+      />
+      <path
+        d="M492.951 84C495.254 84 497.488 84.6052 499.286 85.716L512.538 93.9031L525.79 102.09C527.588 103.201 529.823 103.806 532.125 103.806L711.126 103.806M233.196 104C235.498 104 237.733 103.395 239.531 102.284L266.035 85.9098C267.833 84.7989 270.067 84.1937 272.37 84.1937L442.126 84.1937M6 102.284C7.79808 103.395 10.0322 104 12.3349 104L151.626 104M1279.67 102.284C1277.87 103.395 1275.64 104 1273.34 104H1091.63M1046.14 102.284L1019.64 85.9097C1017.84 84.7989 1015.6 84.1937 1013.3 84.1937L927.626 84.1937M753.266 104C755.568 104 757.802 103.395 759.601 102.284L786.105 85.9097C787.903 84.7989 790.137 84.1937 792.44 84.1937L883.626 84.1937"
+        stroke="#FF00E5"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M747.986 7.19374H568.626H559.126M487.951 27C490.254 27 492.488 26.3948 494.286 25.284L512.126 14.2627M488.231 26.8062L473.126 26.8063M1 8.71608C2.79808 7.60523 5.03219 7.00004 7.33487 7.00004L33.6257 7.00002M1274.67 8.71603C1272.87 7.60519 1270.64 7 1268.34 7L1214.98 7.00001M748.266 7.00002C750.568 7.00001 752.802 7.6052 754.601 8.71605L781.105 25.0903C782.903 26.2011 785.137 26.8063 787.44 26.8063L797.126 26.8063M851.126 26.8063L1008.3 26.8063C1010.6 26.8063 1012.84 26.2011 1014.64 25.0903L1041.14 8.71608C1042.94 7.60523 1045.17 7.00004 1047.47 7.00004L1161.63 7.00002M276.126 26.8063L267.37 26.8063C265.067 26.8063 262.833 26.2011 261.035 25.0902L234.531 8.71603C232.733 7.60519 230.498 7 228.196 7L82.1258 7.00002M302.626 26.8063L445.626 26.8063"
+        stroke="#FF00E5"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <circle
+        cx="5.5"
+        cy="5.5"
+        r="5.5"
+        transform="matrix(-1 0 0 1 532.126 3)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 454.126 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 462.126 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 470.126 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 478.126 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 486.126 81)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="5.5"
+        cy="5.5"
+        r="5.5"
+        transform="matrix(-1 0 0 1 551.126 1)"
+        fill="#00FFE0"
+      />
+      <circle
+        class="circle"
+        cx="9.41571"
+        cy="9.41571"
+        r="8.41571"
+        transform="matrix(-1 0 0 1 821.957 18)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9.41571"
+        cy="9.41571"
+        r="8.41571"
+        transform="matrix(-1 0 0 1 845.957 18)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9.41571"
+        cy="9.41571"
+        r="8.41571"
+        transform="matrix(-1 0 0 1 1301.96 84)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9"
+        cy="9"
+        r="8"
+        transform="matrix(-1 0 0 1 914.957 75)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9"
+        cy="9"
+        r="8"
+        transform="matrix(-1 0 0 1 177.126 95)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9"
+        cy="9"
+        r="8"
+        transform="matrix(-1 0 0 1 202.126 95)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <circle
+        class="circle"
+        cx="9"
+        cy="9"
+        r="8"
+        transform="matrix(-1 0 0 1 227.126 95)"
+        stroke="#00FFE0"
+        stroke-width="2"
+      />
+      <rect
+        x="282.126"
+        y="20"
+        width="14"
+        height="14"
+        rx="1.94136"
+        fill="#00FFE0"
+      />
+      <rect
+        x="452.126"
+        y="20"
+        width="14"
+        height="14"
+        rx="1.94136"
+        fill="#00FFE0"
+      />
+      <rect
+        x="720.126"
+        y="100"
+        width="8"
+        height="8"
+        rx="1.94136"
+        fill="#00FFE0"
+      />
+      <rect
+        x="736.126"
+        y="100"
+        width="8"
+        height="8"
+        rx="1.94136"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 1056.13 101)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 1064.13 101)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 1072.13 101)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 1080.13 101)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 1088.13 101)"
+        fill="#00FFE0"
+      />
+      <rect x="1172.13" width="14" height="14" rx="1.94136" fill="#00FFE0" />
+      <rect x="1193.13" width="14" height="14" rx="1.94136" fill="#00FFE0" />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 53.1257 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 45.1257 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 61.1257 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 69.1257 4)"
+        fill="#00FFE0"
+      />
+      <circle
+        cx="3"
+        cy="3"
+        r="3"
+        transform="matrix(-1 0 0 1 77.1257 4)"
+        fill="#00FFE0"
+      />
+    </svg>
   </body>
 </html>
