@@ -10,12 +10,29 @@
 /* анимация бегущей линии сердцебиения */
 @keyframes img-heartline {
   0% {
-    background-position: 100% 50%;
+    transform: translateX(-65.903vw);
   }
   100% {
-    background-position: -100% 50%;
+    transform: translateX(-7.847vw);
   }
 }
+@keyframes img-heartline-tablet {
+  0% {
+    transform: translateX(-135.547vw);
+  }
+  100% {
+    transform: translateX(-20.573vw);
+  }
+}
+@keyframes img-heartline-mobile {
+  0% {
+    transform: translateX(-135.547vw);
+  }
+  100% {
+    transform: translateX(-20.573vw);
+  }
+}
+
 /* анимация бегущей линии ДНК */
 @keyframes img-DNA {
   0% {
@@ -39,7 +56,7 @@ img.cross-scanner:hover {
   animation-play-state: paused;
 }
 /* остановка при наведении бегущей линии сердцебиения */
-.heartline:hover {
+.heartline > svg:hover {
   animation-play-state: paused;
 }
 /* остановка при наведении бегущей линии ДНК  */

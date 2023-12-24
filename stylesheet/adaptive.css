@@ -33,8 +33,10 @@
     width: 94.792vw;
     height: 31.292vw;
   }
-  img.img-heartline {
-    width: auto;
+  .heartline > svg {
+    width: 230.316vw;
+    height: 31.03vw;
+    animation: img-heartline-tablet 3s infinite linear;
   }
   /* общий блок снизу с двумя квадратами */
   .two-squares {
@@ -365,6 +367,10 @@
     height: 23vw;
     margin-bottom: 4.831vw;
   }
+  .heartline > svg {
+    width: 156.729vw;
+    height: 20.855vw;
+  }
   /* общий блок снизу с двумя квадратами */
   .two-squares {
     width: 90.338vw;
@@ -428,7 +434,7 @@
   .select-line {
     height: 20.013vw;
     width: 777.865vw;
-    animation: infinite linear 8s text-line-2;
+    animation: infinite linear 8s select-line-tablet;
   }
   .text-select-form {
     height: 20.85vw;

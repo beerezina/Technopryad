@@ -75,11 +75,12 @@ img.cross-scanner {
   margin-bottom: 1.389vw;
   overflow: hidden;
   box-sizing: border-box;
-  background-image: url(../images/line-mobile.svg);
-  background-size: auto 90%;
-  background-repeat: repeat-x;
-  background-position-y: 50%;
-  animation: img-heartline 18s infinite linear;
+}
+.heartline > svg {
+  /* position: absolute; */
+  width: 116.181vw;
+  height: 16.758vw;
+  animation: img-heartline 3s infinite linear;
   animation-play-state: running;
 }
 
