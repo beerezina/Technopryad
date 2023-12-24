@@ -332,36 +332,40 @@
 }
 /* телефон */
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
-  /* заголовок */
+  /* <!-- секция заголовок --> */
   .header {
     padding-top: 4.831vw;
   }
+  /* секция с data capture */
   .data-capture {
     flex-direction: column;
     height: 177.884vw;
     padding: 4.831vw;
   }
-  .text-data-capture {
-    font-size: 9.812vw;
-    text-align: center;
-    padding: 2.831vw 0 2vw;
-  }
-
-  .left-column {
-    width: 90.338vw;
-    height: 90.338vw;
-  }
+  /* блок правой колонки */
   .right-column {
     width: 90.338vw;
     height: 78.169vw;
     padding-left: 0;
   }
+  /* текстовый блок data capture */
+  .text-data-capture {
+    font-size: 9.812vw;
+    text-align: center;
+    padding: 2.831vw 0 2vw;
+  }
+  /* блок левой колонки */
+  .left-column {
+    width: 90.338vw;
+    height: 90.338vw;
+  }
+  /* бокс бегущей линии сердцебиения */
   .heartline {
     width: 90.338vw;
     height: 23vw;
     margin-bottom: 4.831vw;
   }
-
+  /* общий блок снизу с двумя квадратами */
   .two-squares {
     width: 90.338vw;
     height: 40.338vw;
@@ -515,23 +519,19 @@
   .loading-text {
     margin-left: 64vw;
   }
-  /* третий экран */
-  .left-column-mind {
-    opacity: 0%;
-  }
   .left-loading-screen {
     height: auto;
     width: auto;
   }
   .left-column-mind {
     height: auto;
+    opacity: 0%;
   }
   .mind-exploading {
     flex-direction: column;
     padding: 2.604vw;
     height: 122.333vw;
   }
-
   .chip-butterfly {
     height: 94.792vw;
     width: 94.792vw;
