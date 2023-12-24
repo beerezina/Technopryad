@@ -1,10 +1,9 @@
 html {
   background-color: #413f53;
-  display: block;
   width: 100vw;
 }
 
-/* секция с заголовком */
+/* <!-- секция заголовок --> */
 .header {
   padding-top: 1.389vw;
   box-sizing: border-box;
@@ -23,7 +22,6 @@ html {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-
   height: 48.333vw;
   padding: 1.389vw;
   box-sizing: border-box;
@@ -78,11 +76,9 @@ img.cross-scanner {
   overflow: hidden;
   box-sizing: border-box;
   background-image: url(../images/line-mobile.svg);
-
   background-size: auto 90%;
   background-repeat: repeat-x;
   background-position-y: 50%;
-
   animation: img-heartline 18s infinite linear;
   animation-play-state: running;
 }
@@ -310,7 +306,7 @@ img.img-DNA {
   animation-play-state: running;
 }
 
-/* секция select form */
+/* <!-- секция select form (выбор формы) --> */
 .select-form {
   position: relative;
   overflow: hidden;
@@ -319,14 +315,7 @@ img.img-DNA {
   display: flex;
   flex-direction: column;
 }
-
-.select-line {
-  position: absolute;
-  width: 305.208vw;
-  height: 7.847vw;
-  animation: select-line 3s infinite linear;
-  animation-play-state: running;
-}
+/* бегущие строки бабочек */
 .top-butterfly {
   display: flex;
   box-sizing: border-box;
@@ -364,7 +353,6 @@ img.img-DNA {
   margin-right: 1.389vw;
   box-sizing: border-box;
   border: black 0.25vw solid;
-
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -396,8 +384,20 @@ img.img-DNA {
   width: 100%;
   height: 100%;
 }
-
-/* бегущая строка текста select form  */
+/* бегущая линия между строками бабочек */
+.select-line {
+  position: absolute;
+  width: 305.208vw;
+  height: 7.847vw;
+  animation: select-line 3s infinite linear;
+  animation-play-state: running;
+}
+/* анимация кружочков в свг линии */
+.circle {
+  fill: #ff00e5;
+  animation: circle 300ms infinite steps(1);
+}
+/* блок текста select form  */
 .text-select-form {
   height: 9.85vw;
   width: 100%;
@@ -415,151 +415,18 @@ img.img-DNA {
   top: 43%;
 }
 
-/* анимация кружочков в свг линии */
-.circle {
-  fill: #ff00e5;
-  animation: circle 300ms infinite steps(1);
-}
-
-/* .data-capture {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    width: 100%;
-    height: 48.333vw;
-    padding: 1.389vw;
-    box-sizing: border-box;
-  }
-  
-  /* блок левой колонки и фон*/
-/* .left-column {
-    background-color: #22212c;
-    border: black 0.25vw solid;
-    background-image: url(../images/first-butterfly-with-skeleton.svg);
-    background-size: contain;
-    height: 45.556vw;
-    width: 45.556vw;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-  } */
-
+/* <!-- секция mind exploading (загрузки разума) --> */
 .mind-exploading {
   display: flex;
   width: 100vw;
-  box-sizing: border-box;
-  overflow: hidden;
   height: 48.333vw;
   padding: 1.389vw;
   position: relative;
-}
-.top {
-  position: relative;
-}
-.chip-butterfly {
-  background-color: #22212c;
-  border: black 0.25vw solid;
-  background-image: url(../images/background.svg);
-
-  background-size: contain;
-  height: 45.556vw;
-  width: 45.556vw;
   box-sizing: border-box;
-  background-repeat: no-repeat;
   overflow: hidden;
-  position: absolute;
-  left: 53vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.chip-butterfly > svg {
-  height: 93%;
-  width: 93%;
-}
-.text-mind {
-  font-family: DigiGraphics;
-  font-size: 3.5vw;
-  color: #00ffe0;
-}
-.left-column-mind {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 51.523vw;
-  height: 34.556vw;
-
-  animation: 2s linear infinite left-column-mind;
-  animation-play-state: running;
-}
-.gadget {
-  /* background-image: url(../images/gadget.svg);
-  background-size: contain;
-  background-repeat: no-repeat; */
-  position: absolute;
-
-  width: 51.523vw;
-  height: 34.556vw;
-}
-.gadget > p {
-  position: absolute;
-  left: 14.5vw;
-  top: 9vw;
-}
-.gadget > svg {
-  width: 52.523vw;
-  height: 34.556vw;
 }
 
-.circle-mind-1 {
-  animation: circle-mind-1 500ms infinite steps(1);
-}
-.circle-mind-2 {
-  animation: circle-mind-2 500ms infinite steps(1);
-}
-
-.circles-butt-1 {
-  animation: circle-mind-4 500ms infinite steps(1);
-  animation-delay: 200ms;
-}
-
-.circles-butt-12 {
-  animation: circle-mind-3 500ms infinite steps(1);
-}
-
-.screw-1,
-.screw-2,
-.screw-3 {
-  position: absolute;
-}
-.screw-1 {
-  margin-left: 7.069vw;
-  margin-top: 8.833vw;
-  width: 10.995vw;
-  height: 10.995vw;
-}
-.screw-2 {
-  margin-left: 13.069vw;
-  margin-top: 8.833vw;
-  width: 5.673vw;
-  height: 5.673vw;
-}
-.screw-3 {
-  margin-left: 16vw;
-  margin-top: 8.833vw;
-  width: 7.755vw;
-  height: 7.755vw;
-}
-img.screw-1,
-img.screw-2,
-img.screw-3 {
-  animation-play-state: running;
-
-  animation: 3s linear 0s normal none infinite running cross-scanner;
-}
+/* <!-- левая половина секции --> */
 .left-loading-screen {
   overflow: hidden;
   display: flex;
@@ -568,17 +435,76 @@ img.screw-3 {
   width: 51.6vw;
   justify-content: space-between;
 }
-.loading-text {
-  margin-left: 36vw;
-  animation: steps(1) 1s infinite linear text-print-100;
-  /* animation-delay: 10s; */
+
+/* <!-- верхняя половина с двигающимся прибором --> */
+.left-column-mind {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 51.523vw;
+  height: 34.556vw;
+  animation: 2s linear infinite left-column-mind;
+  animation-play-state: running;
 }
+/* svg прибора */
+.gadget {
+  position: absolute;
+  width: 52.523vw;
+  height: 34.556vw;
+}
+/* анимация кружочков прибора */
+.circle-mind-1 {
+  animation: circle-mind-1 500ms infinite steps(1);
+}
+.circle-mind-2 {
+  animation: circle-mind-2 500ms infinite steps(1);
+}
+/* блок текста в приборе */
+.text-mind {
+  font-family: DigiGraphics;
+  font-size: 3.5vw;
+  color: #00ffe0;
+  position: absolute;
+  left: 14.5vw;
+  top: 9vw;
+}
+/* размеры блоков с винтиками */
+.screw-1 {
+  position: absolute;
+  margin-left: 7.069vw;
+  margin-top: 8.833vw;
+  width: 10.995vw;
+  height: 10.995vw;
+}
+.screw-2 {
+  position: absolute;
+  margin-left: 13.069vw;
+  margin-top: 8.833vw;
+  width: 5.673vw;
+  height: 5.673vw;
+}
+.screw-3 {
+  position: absolute;
+  margin-left: 16vw;
+  margin-top: 8.833vw;
+  width: 7.755vw;
+  height: 7.755vw;
+}
+/* анимация на картинки винтиков */
+img.screw-1,
+img.screw-2,
+img.screw-3 {
+  animation-play-state: running;
+  animation: 3s linear 0s normal none infinite running cross-scanner;
+}
+
+/* <!--  нижняя половина со строкой загрузки --> */
 .bottom-loading {
   height: 10vw;
   box-sizing: border-box;
   width: 49vw;
 }
-
+/* <!-- верхний отсек с текстом (проценты и loading...) --> */
 .box-text-loading {
   font-family: DigiGraphics;
   font-size: 2vw;
@@ -587,7 +513,7 @@ img.screw-3 {
   display: flex;
   color: #00ffe0;
 }
-
+/* анимация для каждой цифры процента */
 .load-0 {
   opacity: 0%;
   position: absolute;
@@ -599,7 +525,6 @@ img.screw-3 {
   animation: text-print steps(1) 500ms forwards;
   animation-delay: 1s;
 }
-
 .load-20 {
   opacity: 0%;
   position: absolute;
@@ -652,9 +577,27 @@ img.screw-3 {
   opacity: 0%;
   position: absolute;
   animation: text-print-100 steps(1) 500ms both;
-
   animation-delay: 10s;
 }
+/* текст loading */
+.loading-text {
+  margin-left: 36vw;
+  animation: steps(1) 1s infinite linear text-print-100;
+}
+/* анимация точек */
+.first-dot {
+  opacity: 0%;
+  animation: first-dot steps(1) 500ms infinite;
+}
+.second-dot {
+  opacity: 0%;
+  animation: second-dot steps(1) 500ms infinite;
+}
+.third-dot {
+  opacity: 0%;
+  animation: third-dot steps(1) 500ms infinite;
+}
+/* блок для квадратами */
 .blocks {
   height: 8.006vw;
   width: 100%;
@@ -664,6 +607,7 @@ img.screw-3 {
   justify-content: center;
   display: flex;
 }
+/* сам бокс квадратов */
 .blocks-in-box {
   box-sizing: border-box;
   align-items: center;
@@ -672,6 +616,7 @@ img.screw-3 {
   padding: 2.001vw;
   width: 100%;
 }
+/* сами квадраты */
 .block-1,
 .block-2,
 .block-3,
@@ -691,7 +636,7 @@ img.screw-3 {
   border: #ff00e5 0.25vw solid;
   background-color: #ff00e5;
 }
-
+/* анимация квадратов */
 .block-1 {
   opacity: 0%;
   animation: text-print-100 steps(1) 500ms both;
@@ -710,7 +655,6 @@ img.screw-3 {
 .block-4 {
   opacity: 0%;
   animation: text-print-100 steps(1) 500ms both;
-
   animation-delay: 4s;
 }
 .block-5 {
@@ -743,64 +687,69 @@ img.screw-3 {
   animation: text-print-100 steps(1) 500ms both;
   animation-delay: 10s;
 }
-.first-dot {
-  opacity: 0%;
-  animation: first-dot steps(1) 500ms infinite;
-}
-.second-dot {
-  opacity: 0%;
-  animation: second-dot steps(1) 500ms infinite;
-}
-.third-dot {
-  opacity: 0%;
-  animation: third-dot steps(1) 500ms infinite;
-}
-/* четвертый экран  */
 
-.choose-a-pattern {
+/* <!-- правая половина секции/контейнер с микросхемой бабочки --> */
+.chip-butterfly {
+  position: absolute;
   display: flex;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-
-  height: 51.333vw;
-  padding: 1.389vw;
-  box-sizing: border-box;
-}
-.butterfly_choose {
+  align-items: center;
+  justify-content: center;
+  height: 45.556vw;
+  width: 45.556vw;
+  left: 53vw;
   background-color: #22212c;
   border: black 0.25vw solid;
   background-image: url(../images/background.svg);
   background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/* размер всего svg бабочки */
+.chip-butterfly > svg {
+  height: 93%;
+  width: 93%;
+}
+/* мигающие кружочки на бабочке */
+.circles-butt-1 {
+  animation: circle-mind-4 500ms infinite steps(1);
+  animation-delay: 200ms;
+}
+.circles-butt-12 {
+  animation: circle-mind-3 500ms infinite steps(1);
+}
+
+/* <!-- секция choose a pattern (выбор узора) --> */
+.choose-a-pattern {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  height: 51.333vw;
+  padding: 1.389vw;
+  box-sizing: border-box;
+}
+
+/* <!-- левый контейнер с бабочкой и кнопками узоров --> */
+.butterfly_choose {
   height: 48.555vw;
   width: 48.503vw;
   box-sizing: border-box;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-}
-.ruler {
-  background-image: url(../images/ruler.svg);
-  height: 48.555vw;
-  width: 4.5vw;
+  background-color: #22212c;
+  border: black 0.25vw solid;
+  background-image: url(../images/background.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  margin-left: 1vw;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  overflow: hidden;
 }
-.arrow {
-  width: 100%;
-  width: 6vw;
-  animation: 2s linear infinite arrow;
-  animation-play-state: running;
-  width: 94.5%;
-}
+
+/* контейнер с кнопками */
 .patterns-squares {
   display: flex;
   position: relative;
 }
+/* кнопки узоров  */
 .confetti,
 .diagonal-lines,
 .diamonds,
@@ -813,38 +762,40 @@ img.screw-3 {
   background-color: #22212c;
   border: #ff00e5 0.25vw solid;
 }
-
+/* примеры узоров на бэкграунде кнопок */
 .confetti {
   background-image: url(../images/confetti.svg);
   background-size: contain;
-
   background-repeat: no-repeat;
 }
 .diagonal-lines {
   background-image: url(../images/diagonal-lines.svg);
   background-size: contain;
-
   background-repeat: no-repeat;
 }
 .diamonds {
   background-image: url(../images/diamonds.svg);
   background-size: contain;
-
   background-repeat: no-repeat;
 }
 .small-squares {
   background-image: url(../images/small-squares.svg);
   background-size: contain;
-
   background-repeat: no-repeat;
 }
 .small-circles {
   background-image: url(../images/small-circles.svg);
   background-size: contain;
-
   background-repeat: no-repeat;
 }
-.butterfly-final,
+/* сама бабочка */
+.butterfly-final {
+  position: absolute;
+  top: 10vw;
+  width: 45vw;
+  height: 36.242vw;
+}
+/* узоры на бабочке */
 .p-confetti,
 .p-diagonal-lines,
 .p-diamonds,
@@ -854,14 +805,28 @@ img.screw-3 {
   top: 10vw;
   width: 45vw;
   height: 36.242vw;
-}
-.p-confetti,
-.p-diagonal-lines,
-.p-diamonds,
-.p-small-squares,
-.p-small-circles {
   opacity: 0%;
 }
+/* средний контейнер с линейкой */
+.ruler {
+  background-image: url(../images/ruler.svg);
+  height: 48.555vw;
+  width: 4.5vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 1vw;
+  display: flex;
+  justify-content: flex-start;
+}
+/* бегущая стрелка */
+.arrow {
+  width: 3.7vw;
+  height: 2.25vw;
+  animation: 2s linear infinite arrow;
+  animation-play-state: running;
+}
+
+/* правый контейнер */
 .right-column-choose {
   padding-left: 1.144vw;
   display: flex;
@@ -869,13 +834,16 @@ img.screw-3 {
   width: 43.2vw;
   flex-direction: column;
 }
-/* текстовый блок data capture */
+
+/* <!-- блок текста --> */
 .text-choose-a-pattern {
   font-family: DigiGraphics;
   font-size: 3.96vw;
   color: #00ffe0;
   margin-bottom: 1.389vw;
 }
+
+/* <!-- блок с материнской платой  --> */
 .motherboard {
   border: black 0.25vw solid;
   height: 12.444vw;
@@ -887,35 +855,14 @@ img.screw-3 {
   align-items: center;
   justify-content: center;
 }
-.running-circles {
-  border: black 0.25vw solid;
-  height: 12.444vw;
-  width: 42.056vw;
-  overflow: hidden;
-  box-sizing: border-box;
-  display: flex;
-  align-items: flex-end;
-  position: relative;
-}
-.battery,
-.heart,
-.temperature {
-  width: 13.09vw;
-  height: 11.444vw;
-  border: black 0.25vw solid;
-}
-.three-icons {
-  display: flex;
-  margin-top: 1.389vw;
-  width: 42.056vw;
-}
-.battery {
-  margin-right: 1.389vw;
-}
-.heart {
-  margin-right: 1.389vw;
+
+/* размер svg материнской платы */
+.motherboard svg {
+  width: 39.931vw;
+  height: 9.931vw;
 }
 
+/* анимация квадратиков */
 .flashing-1 {
   animation: circle-mind-1 500ms infinite steps(1);
 }
@@ -927,97 +874,115 @@ img.screw-3 {
   fill: #ff00e5;
   stroke: #00ffe0;
 }
-.motherboard svg {
-  width: 39.931vw;
-  height: 9.931vw;
+
+/* <!-- контейнер с бегущими кружочками --> */
+.running-circles {
+  border: black 0.25vw solid;
+  height: 12.444vw;
+  width: 42.056vw;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
 }
-.final-run-circles {
-  position: absolute;
-  left: 0;
-}
+/* сама линия под кружочками */
 .line-for-run {
   width: 41.569vw;
   height: 7.917vw;
 }
+/* дальше svg кружочки */
 .pink-1 {
-  /* opacity: 0%; */
-
+  position: absolute;
   width: 2.222vw;
   height: 2.222vw;
   left: 0;
   bottom: 0;
-  animation-play-state: running;
-
-  position: absolute;
   animation: 3s linear infinite circle_1;
+  animation-play-state: running;
 }
 .blue-w-pink-2 {
-  /* opacity: 0%; */
+  position: absolute;
   width: 1.528vw;
   height: 1.528vw;
-  position: absolute;
   left: 0;
   bottom: 0;
-  animation-play-state: running;
-
   animation: 3s linear infinite circle_2;
+  animation-play-state: running;
   animation-delay: -500ms;
 }
-
 .small-blue-3 {
-  /* opacity: 0%; */
+  position: absolute;
   width: 0.972vw;
   height: 0.972vw;
-  position: absolute;
   left: 0;
   bottom: 0;
-  animation-play-state: running;
-
   animation: 3s linear infinite circle_3;
+  animation-play-state: running;
   animation-delay: -1000ms;
 }
 .big-pink-4 {
-  /* opacity: 0%; */
+  position: absolute;
   width: 3.819vw;
   height: 3.819vw;
-  position: absolute;
   left: 0;
   bottom: 0;
-  animation-play-state: running;
-
   animation: 3s linear infinite circle_4;
+  animation-play-state: running;
   animation-delay: -1500ms;
 }
 .blue-w-pink-5 {
-  /* opacity: 0%; */
+  position: absolute;
   width: 2.222vw;
   height: 2.222vw;
-  position: absolute;
   left: 0;
   bottom: 0;
-  animation-play-state: running;
-
   animation: 3s linear infinite circle_1;
+  animation-play-state: running;
   animation-delay: -2000ms;
 }
 .small-blue-6 {
-  /* opacity: 0%; */
+  position: absolute;
   width: 0.972vw;
   height: 0.972vw;
-  position: absolute;
   left: 0;
   bottom: 0;
   animation: 3s linear infinite circle_3;
-  animation-delay: -2500ms;
   animation-play-state: running;
+  animation-delay: -2500ms;
 }
 
+/* <!-- контейнер с тремя блоками иконок --> */
+.three-icons {
+  display: flex;
+  margin-top: 1.389vw;
+  width: 42.056vw;
+}
+
+/* размеры каждого блока */
+.battery,
+.heart,
+.temperature {
+  width: 13.09vw;
+  height: 11.444vw;
+  border: black 0.25vw solid;
+}
+
+/* отступы между ними */
+.battery,
+.heart {
+  margin-right: 1.389vw;
+}
+
+/* размеры самих svg иконок */
 .heart svg,
 .battery svg,
 .temperature svg {
   width: 12.6vw;
   height: 12.083vw;
 }
+
+/* анимации средних частей в иконках */
 .fill-heart {
   stroke: #00ffe0;
   animation: 500ms steps(1) infinite fill-heart;
@@ -1030,6 +995,8 @@ img.screw-3 {
   stroke: #00ffe0;
   animation: 500ms steps(1) infinite fill-heart;
 }
+
+/* заливка внутренних частей для ховера */
 .in-heart {
   fill: #413f53;
 }
@@ -1039,13 +1006,29 @@ img.screw-3 {
 .in-batt {
   fill: #413f53;
 }
+
+/* <!-- секция success (бегущая линия в конце) --> */
+.container-fin-line {
+  overflow: hidden;
+}
+.running-line-success {
+  background-image: url(../images/success-line.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 192.184vw;
+  height: 7vw;
+  animation: 3s linear infinite success;
+  animation-play-state: running;
+  overflow: hidden;
+}
+
+/* <!-- секция подвал/имя/группа --> */
 .ending {
   width: 100%;
   height: 9vw;
   box-sizing: border-box;
   display: flex;
-  /* overflow: hidden; */
-  /* justify-content: space-between; */
   align-items: center;
   padding: 0 1.389vw 1.389vw 1.389vw;
   box-sizing: border-box;
@@ -1075,18 +1058,4 @@ h5 {
   line-height: 130%; /* 35.873px */
   text-transform: uppercase;
   text-align: right;
-}
-
-.running-line-success {
-  background-image: url(../images/success-line.svg);
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 192.184vw;
-  height: 7vw;
-  animation: 3s linear infinite success;
-  overflow: hidden;
-}
-.container-fin-line {
-  overflow: hidden;
 }

@@ -1,17 +1,31 @@
 /* планшет */
 @media only screen and (min-device-width: 700px) and (max-device-width: 1024px) {
-  /* первый секшн */
+  /* <!-- секция заголовок --> */
   .header {
     padding-top: 2.604vw;
   }
-  .text-data-capture {
-    font-size: 4.853vw;
-  }
-
+  /* секция с data capture */
   .data-capture {
     height: 103.951vw;
     padding: 2.604vw;
   }
+  /* блок левой колонки */
+  .left-column {
+    height: 64.193vw;
+    width: 64.193vw;
+  }
+  /* блок правой колонки */
+  .right-column {
+    position: relative;
+    height: 64.193vw;
+    width: 27.995vw;
+    padding-left: 2.604vw;
+  }
+  /* текстовый блок data capture */
+  .text-data-capture {
+    font-size: 4.853vw;
+  }
+  /* бокс бегущей линии сердцебиения */
   .heartline {
     position: absolute;
     top: 67.082vw;
@@ -22,55 +36,35 @@
   img.img-heartline {
     width: auto;
   }
-  .right-column {
-    position: relative;
-    height: 64.193vw;
-    width: 27.995vw;
-    flex-direction: column;
-    padding-left: 2.604vw;
-  }
+  /* общий блок снизу с двумя квадратами */
   .two-squares {
     flex-direction: column;
     height: 53.672vw;
     width: 27.58vw;
     margin-top: 1.39vw;
   }
-  .second-square {
-    height: 100%;
-    width: 100%;
-  }
   .days {
     height: 100%;
     width: 100%;
     border-bottom: none;
   }
-  .left-column {
-    height: 64.193vw;
-    width: 64.193vw;
+  .second-square {
+    height: 100%;
+    width: 100%;
   }
-  /* второй экран  */
+
+  /* <!-- секция select form (выбор формы) --> */
   .select-form {
     height: 116.781vw;
   }
+  /* бегущие строки бабочек */
   .top-butterfly,
   .bottom-butterfly {
     width: 519.222vw;
     height: 47vw;
-    animation: infinite linear 3s top-butterfly-2;
+    animation: infinite linear 3s top-butterfly-tablet;
   }
-  .select-line {
-    height: 20.013vw;
-    width: 777.865vw;
-    animation: infinite linear 8s text-line-2;
-  }
-  .text-select-form {
-    height: 20.85vw;
-  }
-  .text-select-form > p {
-    font-size: 3.67vw;
-    top: 43%;
-    left: 36%;
-  }
+  /* блоки + скелеты на бэкграунде */
   .skelet-1,
   .skelet-2,
   .skelet-3,
@@ -93,40 +87,60 @@
   .skelet-10-1 {
     width: 47vw;
   }
-  /* третий экран */
-  .left-column-mind {
-    opacity: 0%;
+  /* бегущая линия между строками бабочек */
+  .select-line {
+    height: 20.013vw;
+    width: 777.865vw;
+    animation: infinite linear 8s select-line-tablet;
   }
-  .left-loading-screen {
-    height: auto;
-    width: auto;
+  /* блок текста select form  */
+  .text-select-form {
+    height: 20.85vw;
   }
-  .left-column-mind {
-    height: auto;
+  .text-select-form > p {
+    font-size: 3.67vw;
+    top: 43%;
+    left: 36%;
   }
+
+  /* <!-- секция mind exploading (загрузки разума) --> */
   .mind-exploading {
     flex-direction: column;
     padding: 2.604vw;
     height: 122.333vw;
   }
-
-  .chip-butterfly {
-    height: 94.792vw;
-    width: 94.792vw;
-    left: 2.604vw;
-    top: 24vw;
+  /* <!-- левая половина секции --> */
+  .left-loading-screen {
+    height: auto;
+    width: auto;
+  } /* <!-- верхняя половина с двигающимся прибором --> */
+  .left-column-mind {
+    opacity: 0%;
+    height: auto;
   }
-
+  /* <!--  нижняя половина со строкой загрузки --> */
   .bottom-loading {
     height: 20vw;
     width: 100%;
   }
+  /* <!-- верхний отсек с текстом (проценты и loading...) --> */
+  .box-text-loading {
+    font-size: 5vw;
+    height: 4.994vw;
+  }
+  /* текст loading */
+  .loading-text {
+    margin-left: 64vw;
+  }
+  /* блок для квадратами */
   .blocks {
     height: 15.006vw;
   }
+  /* сам бокс квадратов */
   .blocks-in-box {
     height: 100%;
   }
+  /* сами квадраты */
   .block-1,
   .block-2,
   .block-3,
@@ -141,27 +155,69 @@
     width: 8.5vw;
     height: 8.5vw;
   }
-  .box-text-loading {
-    font-size: 5vw;
-    height: 4.994vw;
+  /* <!-- правая половина секции/контейнер с микросхемой бабочки --> */
+  .chip-butterfly {
+    height: 94.792vw;
+    width: 94.792vw;
+    left: 2.604vw;
+    top: 24vw;
   }
-  .loading-text {
-    margin-left: 64vw;
-  }
+
+  /* <!-- секция choose a pattern (выбор узора) --> */
   .choose-a-pattern {
-    padding: 2.604vw;
+    padding: 29vw 2.604vw;
     height: 122.333vw;
   }
-  .heart svg,
-  .battery svg,
-  .temperature svg {
-    width: 12.194vw;
-    height: 12.083vw;
+
+  /* <!-- левый контейнер с бабочкой и кнопками узоров --> */
+  .butterfly_choose {
+    height: 64.193vw;
+    width: 64.193vw;
   }
+  /* кнопки узоров  */
+  .confetti,
+  .diagonal-lines,
+  .diamonds,
+  .small-squares,
+  .small-circles {
+    height: 10.393vw;
+    width: 10.393vw;
+  }
+  /* узоры на бабочке + сама бабочка */
+  .butterfly-final,
+  .p-confetti,
+  .p-diagonal-lines,
+  .p-diamonds,
+  .p-small-squares,
+  .p-small-circles {
+    position: absolute;
+    top: 10vw;
+    width: 60vw;
+    height: 53.242vw;
+  }
+  /* средний контейнер с линейкой */
+  .ruler {
+    height: 64.193vw;
+    width: 5.5vw;
+  }
+  /* бегущая стрелка */
+  .arrow {
+    width: 5vw;
+    animation: 2s linear infinite arrow-tablet;
+  }
+  /* правый контейнер */
   .right-column-choose {
     position: relative;
     width: 24.2vw;
   }
+  /* <!-- блок текста --> */
+  .text-choose-a-pattern {
+    white-space: nowrap;
+    position: absolute;
+    left: -70.6vw;
+    top: -5vw;
+  }
+  /* <!-- блок с материнской платой  --> */
   .motherboard {
     position: absolute;
     left: -70.6vw;
@@ -169,21 +225,32 @@
     height: 22.444vw;
     width: 95.17vw;
   }
+  /* размер svg материнской платы */
   .motherboard svg {
     width: 84.931vw;
     height: 21.931vw;
   }
+
+  /* <!-- контейнер с бегущими кружочками --> */
+  .running-circles {
+    position: absolute;
+    left: -70.6vw;
+    top: 67vw;
+    height: 23.444vw;
+    width: 95.17vw;
+  }
+  /* сама линия под кружочками */
   .line-for-run {
     width: 94.569vw;
     height: 13.917vw;
   }
+  /* бегущие кружки */
   .pink-1 {
     width: 7.222vw;
     height: 7.222vw;
     left: 0;
     bottom: 0;
     animation-play-state: running;
-
     position: absolute;
     animation: 3s linear infinite circle_7;
   }
@@ -194,20 +261,16 @@
     left: 0;
     bottom: 0;
     animation-play-state: running;
-
     animation: 3s linear infinite circle_8;
     animation-delay: -500ms;
   }
-
   .small-blue-3 {
     width: 2.972vw;
     height: 2.972vw;
-
     position: absolute;
     left: 0;
     bottom: 0;
     animation-play-state: running;
-
     animation: 3s linear infinite circle_9;
     animation-delay: -1000ms;
   }
@@ -218,7 +281,6 @@
     left: 0;
     bottom: 0;
     animation-play-state: running;
-
     animation: 3s linear infinite circle_10;
     animation-delay: -1500ms;
   }
@@ -229,7 +291,6 @@
     left: 0;
     bottom: 0;
     animation-play-state: running;
-
     animation: 3s linear infinite circle_11;
     animation-delay: -2000ms;
   }
@@ -243,24 +304,17 @@
     animation-delay: -2500ms;
     animation-play-state: running;
   }
-
-  .running-circles {
-    position: absolute;
-    left: -70.6vw;
-    top: 67vw;
-    height: 23.444vw;
-    width: 95.17vw;
-  }
+  /* <!-- контейнер с тремя блоками иконок --> */
   .three-icons {
     margin-top: 0;
     flex-direction: column;
   }
-  .battery {
-    margin-bottom: 2.604vw;
-  }
+  /* отступы между ними */
+  .battery,
   .heart {
     margin-bottom: 2.604vw;
   }
+  /* размеры каждого блока */
   .battery,
   .heart,
   .temperature {
@@ -268,53 +322,20 @@
     height: 19.25vw;
     margin-right: 0;
   }
+  /* размеры самих svg иконок */
   .heart svg,
   .battery svg,
   .temperature svg {
     width: 23vw;
-
     height: 19.083vw;
-  }
-  .butterfly-final,
-  .p-confetti,
-  .p-diagonal-lines,
-  .p-diamonds,
-  .p-small-squares,
-  .p-small-circles {
-    position: absolute;
-    top: 10vw;
-    width: 60vw;
-    height: 53.242vw;
-  }
-  .confetti,
-  .diagonal-lines,
-  .diamonds,
-  .small-squares,
-  .small-circles {
-    height: 10.393vw;
-    width: 10.393vw;
-  }
-  .choose-a-pattern {
-    padding: 29vw 2.604vw;
-  }
-  .text-choose-a-pattern {
-    white-space: nowrap;
-
-    position: absolute;
-    left: -70.6vw;
-    top: -5vw;
-  }
-  .butterfly_choose {
-    height: 64.193vw;
-    width: 64.193vw;
-  }
-  .ruler {
-    height: 64.193vw;
-    width: 5.5vw;
   }
 }
 /* телефон */
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
+  /* заголовок */
+  .header {
+    padding-top: 4.831vw;
+  }
   .data-capture {
     flex-direction: column;
     height: 177.884vw;
@@ -325,9 +346,7 @@
     text-align: center;
     padding: 2.831vw 0 2vw;
   }
-  .header {
-    padding-top: 4.831vw;
-  }
+
   .left-column {
     width: 90.338vw;
     height: 90.338vw;
@@ -400,7 +419,7 @@
   .bottom-butterfly {
     width: 519.222vw;
     height: 47vw;
-    animation: infinite linear 3s top-butterfly-3;
+    animation: infinite linear 3s top-butterfly-mobile;
   }
   .select-line {
     height: 20.013vw;

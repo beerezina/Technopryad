@@ -160,7 +160,7 @@ img.img-DNA:hover {
     opacity: 0%;
   }
 }
-
+/* ховер на цвет делений графика */
 .pie-color-1:hover {
   fill: #00ffe0;
   opacity: 100%;
@@ -181,12 +181,41 @@ img.img-DNA:hover {
   fill: #00ffe0;
   opacity: 100%;
 }
+/* бегущая строка для верхних и нижних форм бабочек */
+@keyframes top-butterfly {
+  0% {
+    transform: translateX(-99.514vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes top-butterfly-tablet {
+  0% {
+    transform: translateX(-384.188vw);
+  }
+  100% {
+    transform: translateX(-142.094vw);
+  }
+}
+
+@keyframes top-butterfly-mobile {
+  0% {
+    transform: translateX(-419.324vw);
+  }
+  100% {
+    transform: translateX(-159.662vw);
+  }
+}
+/* ховер на остановку бегущих строк бабочек */
 .top-butterfly:hover {
   animation-play-state: paused;
 }
 .bottom-butterfly:hover {
   animation-play-state: paused;
 }
+/* ховер на прозрачность розовых бабочек */
 .color-1:hover {
   opacity: 0%;
 }
@@ -205,7 +234,6 @@ img.img-DNA:hover {
 .color-6:hover {
   opacity: 0%;
 }
-
 .color-7:hover {
   opacity: 0%;
 }
@@ -236,7 +264,6 @@ img.img-DNA:hover {
 .color-6-1:hover {
   opacity: 0%;
 }
-
 .color-7-1:hover {
   opacity: 0%;
 }
@@ -249,6 +276,8 @@ img.img-DNA:hover {
 .color-10-1:hover {
   opacity: 0%;
 }
+
+/* ховер на появление скелетов на фоне */
 .skelet-1:hover {
   background-image: url(../images/skelet-1.svg);
   background-color: #1c1b22;
@@ -330,6 +359,7 @@ img.img-DNA:hover {
   background-color: #1c1b22;
 }
 
+/* бегущая строка рядом с select form и ховер на нее*/
 @keyframes select-line {
   0% {
     transform: translate(-205vw);
@@ -338,26 +368,18 @@ img.img-DNA:hover {
     transform: translate(-96.667vw);
   }
 }
+@keyframes select-line-tablet {
+  0% {
+    transform: translate(-677.865vw);
+  }
+  100% {
+    transform: translate(-401.563vw);
+  }
+}
 .select-line:hover {
   animation-play-state: paused;
 }
-
-@keyframes text-line {
-  0% {
-    transform: translate(-143vw);
-  }
-  100% {
-    transform: translate(0px);
-  }
-}
-@keyframes top-butterfly {
-  0% {
-    transform: translateX(-99.514vw);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
+/* анимация мигания кружочков на бегущей строке */
 @keyframes circle {
   0% {
     fill: #ff00e5;
@@ -369,57 +391,7 @@ img.img-DNA:hover {
     fill: #ff00e5;
   }
 }
-@keyframes text-line-2 {
-  0% {
-    transform: translate(-677.865vw);
-  }
-  100% {
-    transform: translate(-401.563vw);
-  }
-}
 
-@keyframes text-line-3 {
-  0% {
-    transform: translate(-427.995vw);
-  }
-  100% {
-    transform: translate(-236.849vw);
-  }
-}
-@keyframes text-line-4 {
-  0% {
-    transform: translate(-585.024vw);
-  }
-  100% {
-    transform: translate(-341.787vw);
-  }
-}
-
-@keyframes text-line-7 {
-  0% {
-    transform: translate(-367vw);
-  }
-  100% {
-    transform: translate(0vw);
-  }
-}
-@keyframes top-butterfly-2 {
-  0% {
-    transform: translateX(-384.188vw);
-  }
-  100% {
-    transform: translateX(-142.094vw);
-  }
-}
-
-@keyframes top-butterfly-3 {
-  0% {
-    transform: translateX(-419.324vw);
-  }
-  100% {
-    transform: translateX(-159.662vw);
-  }
-}
 @keyframes circle-mind-1 {
   0% {
     fill: #ff00e5;
@@ -466,6 +438,7 @@ img.img-DNA:hover {
     fill: none;
   }
 }
+/* анимация движения прибора и ховер */
 @keyframes left-column-mind {
   0% {
     margin-left: 0;
@@ -480,7 +453,7 @@ img.img-DNA:hover {
 .left-column-mind:hover {
   animation-play-state: paused;
 }
-
+/* прогрузка процентов */
 @keyframes text-print {
   0% {
     opacity: 0%;
@@ -493,7 +466,7 @@ img.img-DNA:hover {
     opacity: 0%;
   }
 }
-
+/* прогрузка 100% и блоков */
 @keyframes text-print-100 {
   0% {
     opacity: 0%;
@@ -503,7 +476,53 @@ img.img-DNA:hover {
     color: #00ffe0;
   }
 }
+/* ховер на отсутсвие заливки в блоках  */
+.block-1:hover {
+  background-color: #413f53;
+  border: #ff00e5 0.25vw solid;
+}
+.block-2:hover {
+  background-color: #413f53;
+  border: #ff00e5 0.25vw solid;
+}
+.block-3:hover {
+  background-color: #413f53;
+  border: #ff00e5 0.25vw solid;
+}
+.block-3:hover {
+  background-color: #413f53;
+  border: #ff00e5 0.25vw solid;
+}
+.block-4:hover {
+  background-color: #413f53;
+  border: #ff00e5 0.25vw solid;
+}
+.block-5:hover {
+  background-color: #413f53;
+  border: #ff00e5 0.25vw solid;
+}
+.block-6:hover {
+  background-color: #413f53;
+  border: #ff00e5 0.25vw solid;
+}
+.block-7:hover {
+  background-color: #413f53;
+  border: #ff00e5 0.25vw solid;
+}
+.block-8:hover {
+  background-color: #413f53;
+  border: #ff00e5 0.25vw solid;
+}
+.block-9:hover {
+  background-color: #413f53;
+  border: #ff00e5 0.25vw solid;
+}
+.block-10:hover {
+  background-color: #413f53;
+  border: #ff00e5 0.25vw solid;
+}
 
+/* анимациии трех точек */
 @keyframes first-dot {
   0% {
     opacity: 100%;
@@ -517,7 +536,6 @@ img.img-DNA:hover {
     opacity: 0%;
   }
 }
-
 @keyframes second-dot {
   0% {
     opacity: 0%;
@@ -532,7 +550,6 @@ img.img-DNA:hover {
     color: #00ffe0;
   }
 }
-
 @keyframes third-dot {
   0% {
     opacity: 0%;
@@ -546,6 +563,7 @@ img.img-DNA:hover {
     color: #00ffe0;
   }
 }
+/* тильда на появление узоров при наведении */
 .confetti:hover ~ .p-confetti {
   opacity: 100%;
 }
@@ -562,6 +580,7 @@ img.img-DNA:hover {
   opacity: 100%;
 }
 
+/* бегущие кружочки */
 @keyframes circle_1 {
   0% {
     transform: translate(-1vw);
@@ -576,7 +595,6 @@ img.img-DNA:hover {
     transform: translate(40vw, 0vw);
   }
 }
-
 @keyframes circle_2 {
   0% {
     transform: translate(-0.5vw);
@@ -647,89 +665,8 @@ img.img-DNA:hover {
     transform: translate(40vw, 0vw);
   }
 }
-@keyframes fill-heart {
-  50% {
-    /* fill: #ff00e5; */
 
-    fill: #ff00e5;
-  }
-  /* 100% {
-    fill: #413f53;
-  } */
-}
-.in-heart:hover {
-  fill: #00ffe0;
-}
-.in-temp:hover {
-  fill: #00ffe0;
-}
-.in-batt:hover {
-  fill: #00ffe0;
-}
-
-.small-blue-6:hover {
-  animation-play-state: paused;
-}
-.blue-w-pink-5:hover {
-  animation-play-state: paused;
-}
-.big-pink-4:hover {
-  animation-play-state: paused;
-}
-.small-blue-3:hover {
-  animation-play-state: paused;
-}
-.blue-w-pink-2:hover {
-  animation-play-state: paused;
-}
-.pink-1:hover {
-  animation-play-state: paused;
-}
-.block-1:hover {
-  background-color: #413f53;
-  border: #ff00e5 0.25vw solid;
-}
-.block-2:hover {
-  background-color: #413f53;
-  border: #ff00e5 0.25vw solid;
-}
-.block-3:hover {
-  background-color: #413f53;
-  border: #ff00e5 0.25vw solid;
-}
-.block-3:hover {
-  background-color: #413f53;
-  border: #ff00e5 0.25vw solid;
-}
-.block-4:hover {
-  background-color: #413f53;
-  border: #ff00e5 0.25vw solid;
-}
-.block-5:hover {
-  background-color: #413f53;
-  border: #ff00e5 0.25vw solid;
-}
-.block-6:hover {
-  background-color: #413f53;
-  border: #ff00e5 0.25vw solid;
-}
-.block-7:hover {
-  background-color: #413f53;
-  border: #ff00e5 0.25vw solid;
-}
-.block-8:hover {
-  background-color: #413f53;
-  border: #ff00e5 0.25vw solid;
-}
-.block-9:hover {
-  background-color: #413f53;
-  border: #ff00e5 0.25vw solid;
-}
-.block-10:hover {
-  background-color: #413f53;
-  border: #ff00e5 0.25vw solid;
-}
-
+/* анимация бегущих кружков на mobile/tablet */
 @keyframes circle_7 {
   0% {
     transform: translate(0vw);
@@ -744,7 +681,6 @@ img.img-DNA:hover {
     transform: translate(86vw, 0);
   }
 }
-
 @keyframes circle_8 {
   0% {
     transform: translate(2vw);
@@ -816,6 +752,43 @@ img.img-DNA:hover {
   }
 }
 
+/* ховер на бегущие кружочки */
+.small-blue-6:hover {
+  animation-play-state: paused;
+}
+.blue-w-pink-5:hover {
+  animation-play-state: paused;
+}
+.big-pink-4:hover {
+  animation-play-state: paused;
+}
+.small-blue-3:hover {
+  animation-play-state: paused;
+}
+.blue-w-pink-2:hover {
+  animation-play-state: paused;
+}
+.pink-1:hover {
+  animation-play-state: paused;
+}
+
+/* мигание розового в иконках и ховер на цвет внутри */
+@keyframes fill-heart {
+  50% {
+    fill: #ff00e5;
+  }
+}
+.in-heart:hover {
+  fill: #00ffe0;
+}
+.in-temp:hover {
+  fill: #00ffe0;
+}
+.in-batt:hover {
+  fill: #00ffe0;
+}
+
+/* бегущая стрелка на линейке и ховер */
 @keyframes arrow {
   0% {
     transform: translateY(0vw);
@@ -827,11 +800,21 @@ img.img-DNA:hover {
     transform: translateY(0vw);
   }
 }
-
+@keyframes arrow-tablet {
+  0% {
+    transform: translateY(0vw);
+  }
+  50% {
+    transform: translateY(62vw);
+  }
+  100% {
+    transform: translateY(0vw);
+  }
+}
 .arrow:hover {
   animation-play-state: paused;
 }
-
+/* бегущая финальная линия success и ховер */
 @keyframes success {
   0% {
     background-position: -82vw;
@@ -840,4 +823,7 @@ img.img-DNA:hover {
   100% {
     background-position: -22.5vw;
   }
+}
+.running-line-success:hover {
+  animation-play-state: paused;
 }
